@@ -1,8 +1,9 @@
 # Deploy da versão 1.0 na Vercel
 
-Este é um roteiro de implantação, não um registro de deploy realizado. A revisão
-local está em [REVISAO_FINAL_V1.md](REVISAO_FINAL_V1.md). Não há projeto Vercel,
-domínio ou Supabase real configurado neste workspace. Use um Supabase de
+Este é o roteiro de implantação; o deploy realizado, a URL e as pendências estão
+em [PUBLICACAO.md](PUBLICACAO.md). A revisão local histórica está em
+[REVISAO_FINAL_V1.md](REVISAO_FINAL_V1.md). Supabase real ainda não foi configurado.
+Use um Supabase de
 homologação separado do banco de produção para testar alterações administrativas.
 
 ## 1. Preparar o banco

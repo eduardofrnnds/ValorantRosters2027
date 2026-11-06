@@ -27,6 +27,16 @@ Atualizado em: 06/11/2026.
   na Vercel, conforme pedido posterior à Tarefa 17; commits somente de Eduardo
   Fernandes. Estado atual em [docs/PUBLICACAO.md](docs/PUBLICACAO.md).
 
+## Publicação posterior à Tarefa 17
+
+- GitHub público e Vercel publicados: [repositório](https://github.com/eduardofrnnds/ValorantRosters2027)
+  e [site](https://valorant-rosters-2027.vercel.app). Commits somente de Eduardo Fernandes.
+- `vercel.json` corrige o preset Next.js; integração GitHub dispara deploy de `main`.
+  Build remoto aprovado e verificações HTTP públicas concluídas em modo somente leitura.
+- Supabase ainda não configurado. Auditoria atual encontrou nove pacotes vulneráveis,
+  incluindo Next.js crítico; instalação da atualização 16.4.5 bloqueada pelo modo
+  offline do npm do executor. Correção e revalidação pendentes em `docs/PUBLICACAO.md`.
+
 ## Tarefa 17 — revisão concluída em 06/11/2026
 
 - [x] `npm run check`, `npm test` (**130/130**), build e lint final aprovados.

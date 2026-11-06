@@ -1,5 +1,10 @@
 # Revisão final — versão 1.0.0
 
+> Atualização posterior: o site foi publicado. Uma nova consulta ao npm durante
+> o deploy reportou nove pacotes vulneráveis (um crítico); a conclusão histórica
+> de zero alertas abaixo não representa o estado atual. Consulte
+> [PUBLICACAO.md](PUBLICACAO.md) para o resultado atual e a correção pendente.
+
 Data: 06/11/2026. Escopo: Tarefa 17. Revisão local e preparação de deploy,
 sem publicação, escrita remota ou criação de dados reais. O aceite desta tarefa
 é o relatório verificável de resultados e pendências, não a homologação em produção.

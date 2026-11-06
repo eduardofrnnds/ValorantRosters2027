@@ -12,7 +12,10 @@ logos, vínculos, estatísticas ou movimentos. A fonte local de jogadores está 
 
 **Estado da entrega:** implementação e revisão local da versão 1.0 concluídas;
 o [código está público no GitHub](https://github.com/eduardofrnnds/ValorantRosters2027).
-Deploy Vercel e homologação externa ainda pendentes. Consulte o
+O [site está publicado na Vercel](https://valorant-rosters-2027.vercel.app),
+em modo somente leitura. Há uma atualização de segurança pendente no Next.js e
+a configuração Supabase ainda não foi feita; veja o [estado da publicação](docs/PUBLICACAO.md).
+Consulte o
 [relatório final](docs/REVISAO_FINAL_V1.md), o [progresso](PROGRESSO_VCT.md) e o
 [guia de deploy Vercel](docs/DEPLOY_VERCEL.md) antes de liberar produção.
 
