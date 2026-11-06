@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+coverage/
+.npm-cache/
+*.tsbuildinfo
+next-env.d.ts
+*.log
+.env*
+!.env.example
+.vercel/
+.DS_Store
+Thumbs.db
+artifacts/
+.agents/
+.codex/
+.aws/

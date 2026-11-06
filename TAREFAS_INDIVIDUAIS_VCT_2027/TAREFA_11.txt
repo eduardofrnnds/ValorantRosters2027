@@ -1,0 +1,23 @@
+﻿EXECUTE APENAS A TAREFA 11. NÃO PROSSIGA APÓS CONCLUIR.
+
+VCT Roster Tracker | MODO CODEX ASTRA | 2027: 8 parceiros x 4 regiões = 32.
+Stack: Next.js, TypeScript, Tailwind, Magic UI, shadcn/ui, Supabase.
+Modo manual. Não inventar jogadores, rosters, transferências, logos ou estatísticas.
+Permitir outras equipes (qualifier/visitor) sem limite 8; preservar histórico.
+Não passar à próxima tarefa nem ampliar o escopo. Não fingir persistência.
+Antes: consultar PROGRESSO_VCT.md. Depois: atualizar progresso, testar e parar.
+Fonte equipes: https://escharts.com/news/partner-teams-vct-2027
+
+TAREFA 11 — DASHBOARD ADMINISTRATIVO
+
+OBJETIVO: painel inicial com dados verdadeiros.
+AÇÕES:
+- Construir sidebar, topbar, dashboard e navegação mobile.
+- Criar cartões de total de equipes, jogadores, alterações, rascunhos.
+- Ler contagens reais do banco; exibir "sem dados" quando necessário.
+- Adicionar links para organizações, jogadores, rosters, transferências.
+ACEITE: admin navega e vê contagens reais; sem gráficos falsos.
+NÃO IMPLEMENTAR: novos CRUDs nesta etapa.
+
+RESPOSTA FINAL: liste de forma curta arquivos alterados, testes reais,
+pendências, e indique a próxima tarefa SEM executá-la.

@@ -1,0 +1,25 @@
+﻿EXECUTE APENAS A TAREFA 03. NÃO PROSSIGA APÓS CONCLUIR.
+
+VCT Roster Tracker | MODO CODEX ASTRA | 2027: 8 parceiros x 4 regiões = 32.
+Stack: Next.js, TypeScript, Tailwind, Magic UI, shadcn/ui, Supabase.
+Modo manual. Não inventar jogadores, rosters, transferências, logos ou estatísticas.
+Permitir outras equipes (qualifier/visitor) sem limite 8; preservar histórico.
+Não passar à próxima tarefa nem ampliar o escopo. Não fingir persistência.
+Antes: consultar PROGRESSO_VCT.md. Depois: atualizar progresso, testar e parar.
+Fonte equipes: https://escharts.com/news/partner-teams-vct-2027
+
+TAREFA 03 — DADOS INICIAIS E TIPOS — 32 PARCEIROS VCT 2027
+
+OBJETIVO: definir fonte inicial de organizações sem inventar rosters.
+AÇÕES:
+- Criar tipos Region, Season, Organization, PartnerStatus.
+- Criar arquivo local de seed ou fixtures com 4 regiões e as 32 equipes
+  enumeradas neste plano, exatamente 8 por região.
+- Incluir nome, sigla confirmada ou opcional, slug, região, ano e status partner.
+- Preparar estrutura para categoria qualifier/visitor sem gerar equipes falsas.
+- Adicionar verificações para slugs únicos, 32 totais e 8 por região.
+ACEITE: listagem correta e validada; zero jogadores fictícios.
+NÃO IMPLEMENTAR: banco de dados remoto ou frontend completo.
+
+RESPOSTA FINAL: liste de forma curta arquivos alterados, testes reais,
+pendências, e indique a próxima tarefa SEM executá-la.

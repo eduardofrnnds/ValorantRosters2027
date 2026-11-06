@@ -1,0 +1,25 @@
+﻿EXECUTE APENAS A TAREFA 12. NÃO PROSSIGA APÓS CONCLUIR.
+
+VCT Roster Tracker | MODO CODEX ASTRA | 2027: 8 parceiros x 4 regiões = 32.
+Stack: Next.js, TypeScript, Tailwind, Magic UI, shadcn/ui, Supabase.
+Modo manual. Não inventar jogadores, rosters, transferências, logos ou estatísticas.
+Permitir outras equipes (qualifier/visitor) sem limite 8; preservar histórico.
+Não passar à próxima tarefa nem ampliar o escopo. Não fingir persistência.
+Antes: consultar PROGRESSO_VCT.md. Depois: atualizar progresso, testar e parar.
+Fonte equipes: https://escharts.com/news/partner-teams-vct-2027
+
+TAREFA 12 — CRUD DE ORGANIZAÇÕES E TEMPORADAS
+
+OBJETIVO: permitir cadastrar e editar organizações sem limite de oito.
+AÇÕES:
+- Criar listagem, busca, formulário de criação e edição de organização.
+- Cadastrar região, temporada, nome, slug, logo e partner/qualifier/visitor.
+- Arquivar participação sem apagar histórico; preservar IDs estáveis.
+- Validar slug único e entradas com Zod + permissão no servidor.
+- Preparar upload de logo seguro se Storage estiver configurado.
+ACEITE: novo clube criado aparece publicamente após publicação prevista
+ou com política explícita de cadastro confirmado; ação não finge sucesso.
+NÃO IMPLEMENTAR: gestão de jogadores ou transferências.
+
+RESPOSTA FINAL: liste de forma curta arquivos alterados, testes reais,
+pendências, e indique a próxima tarefa SEM executá-la.

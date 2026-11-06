@@ -1,0 +1,23 @@
+﻿EXECUTE APENAS A TAREFA 01. NÃO PROSSIGA APÓS CONCLUIR.
+
+VCT Roster Tracker | MODO CODEX ASTRA | 2027: 8 parceiros x 4 regiões = 32.
+Stack: Next.js, TypeScript, Tailwind, Magic UI, shadcn/ui, Supabase.
+Modo manual. Não inventar jogadores, rosters, transferências, logos ou estatísticas.
+Permitir outras equipes (qualifier/visitor) sem limite 8; preservar histórico.
+Não passar à próxima tarefa nem ampliar o escopo. Não fingir persistência.
+Antes: consultar PROGRESSO_VCT.md. Depois: atualizar progresso, testar e parar.
+Fonte equipes: https://escharts.com/news/partner-teams-vct-2027
+
+TAREFA 01 — INICIALIZAÇÃO E ESTRUTURA NEXT.JS
+
+OBJETIVO: ter aplicação Next.js executando localmente.
+AÇÕES:
+- Inicializar ou adaptar Next.js App Router + TypeScript + Tailwind.
+- Criar src/app, src/components, src/features, src/lib, src/types.
+- Criar .env.example sem segredos e README básico com comandos.
+- Configurar lint, scripts dev/build e estrutura para futuras telas.
+ACEITE: npm run dev (ou gerenciador existente) e build básico funcionam.
+NÃO IMPLEMENTAR: páginas completas, banco, autenticação, transferências.
+
+RESPOSTA FINAL: liste de forma curta arquivos alterados, testes reais,
+pendências, e indique a próxima tarefa SEM executá-la.

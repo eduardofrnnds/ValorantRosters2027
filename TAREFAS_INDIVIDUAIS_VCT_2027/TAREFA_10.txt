@@ -1,0 +1,25 @@
+﻿EXECUTE APENAS A TAREFA 10. NÃO PROSSIGA APÓS CONCLUIR.
+
+VCT Roster Tracker | MODO CODEX ASTRA | 2027: 8 parceiros x 4 regiões = 32.
+Stack: Next.js, TypeScript, Tailwind, Magic UI, shadcn/ui, Supabase.
+Modo manual. Não inventar jogadores, rosters, transferências, logos ou estatísticas.
+Permitir outras equipes (qualifier/visitor) sem limite 8; preservar histórico.
+Não passar à próxima tarefa nem ampliar o escopo. Não fingir persistência.
+Antes: consultar PROGRESSO_VCT.md. Depois: atualizar progresso, testar e parar.
+Fonte equipes: https://escharts.com/news/partner-teams-vct-2027
+
+TAREFA 10 — LOGIN ADMINISTRATIVO E POLÍTICAS DE SEGURANÇA
+
+OBJETIVO: proteger /admin e operações de escrita no servidor.
+AÇÕES:
+- Criar /admin/login, autenticação Supabase, logout e layout protegido.
+- Criar fluxo documentado de concessão do primeiro usuário admin.
+- Reforçar RLS: leitura pública apenas de registros publicados,
+  drafts e logs privados; escrita apenas por admin autorizado.
+- Validar permissões no servidor, não só em botões da interface.
+- Não usar service_role no browser nem senha fixa no código.
+ACEITE: acesso público a /admin bloqueado; controles de privilégio testados.
+NÃO IMPLEMENTAR: formulários completos de CRUD.
+
+RESPOSTA FINAL: liste de forma curta arquivos alterados, testes reais,
+pendências, e indique a próxima tarefa SEM executá-la.

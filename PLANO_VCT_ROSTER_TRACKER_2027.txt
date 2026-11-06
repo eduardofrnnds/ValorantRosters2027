@@ -1,0 +1,336 @@
+﻿VCT ROSTER TRACKER — PLANO DE IMPLEMENTAÇÃO POR TAREFAS
+Versão: 1.0 | Planejamento atualizado em: 02/11/2026
+Plataforma: VS Code + Codex Astra | Atualização dos rosters: MANUAL
+Temporada inicial: 2027 | 4 regiões | 8 ORGANIZAÇÕES PARCEIRAS por região = 32
+
+==========================================================================
+INSTRUÇÕES PARA NÃO GASTAR TODO O LIMITE DO CODEX DE UMA VEZ
+==========================================================================
+1. Abra o projeto no VS Code e coloque este arquivo na RAIZ do workspace.
+2. Em cada interação com o Codex, peça APENAS UMA TAREFA pelo número.
+3. Não copie este plano inteiro no chat do Codex. Peça a seção específica.
+4. O Codex deve ler as regras gerais e SOMENTE a tarefa escolhida.
+5. Ao concluir, ele marca [x] na tarefa e atualiza PROGRESSO_VCT.md.
+6. Em um NOVO pedido, execute a tarefa seguinte. Não há execução em sequência automática.
+7. Se acabar o limite ou houver bloqueio externo, o progresso deve permanecer salvo nos arquivos.
+
+PROMPT CURTO PARA COLAR NO CODEX (substitua XX pelo número):
+"Leia o arquivo PLANO_VCT_ROSTER_TRACKER_2027.txt, considerando apenas REGRAS
+GERAIS e TAREFA XX. Execute SOMENTE essa tarefa no projeto aberto. Rode os
+testes pertinentes, atualize PROGRESSO_VCT.md, marque a tarefa concluída
+quando realmente finalizada e PARE. Não avance para a próxima tarefa.
+Responda resumidamente: alterações, testes e pendências."
+
+DICA PARA MÁXIMA ECONOMIA DE CONTEXTO:
+Também disponibilizo arquivos separados TAREFA_00.txt ... TAREFA_17.txt.
+Você pode entregar ao Codex somente o arquivo da tarefa correspondente.
+
+==========================================================================
+REGRAS GERAIS (VÁLIDAS PARA TODAS AS TAREFAS)
+==========================================================================
+- Projeto: VCT Roster Tracker, interface preferencialmente PT-BR.
+- Stack: Next.js App Router, TypeScript, Tailwind, Magic UI, shadcn/ui,
+  Lucide, Motion, Supabase PostgreSQL/Auth/Storage, Zod, deploy Vercel.
+- Atualizações EXCLUSIVAMENTE MANUAIS: não criar bots, scrapers ou sync automático.
+- Temporada padrão 2027; NÃO inicializar com 48 equipes de 2026.
+- Seed inicial: 32 equipes PARCEIRAS de 2027 (8 por região). Não confundir
+  com total de participantes em torneios.
+- O banco deve permitir equipes extras por classificatórias e visitor teams.
+  No Kickoff 2027, Americas/EMEA/Pacific têm 8 parceiras + 4 classificadas;
+  China possui 8 parceiras + 2 visitantes + 2 classificadas.
+- Não limitar a oito o número de equipes cadastráveis por região.
+- Não inventar jogadores, escalações, técnicos, transferências ou estatísticas.
+- Não inserir logos oficiais inventadas; usar arquivos licenciados ou placeholders.
+- Guardar histórico de jogadores e vínculos quando houver transferências.
+- Apenas conteúdos PUBLICADOS aparecem no site público; rascunhos ficam privados.
+- Nunca criar credenciais, senhas ou chaves falsas para simular produção.
+- Não modificar arquivos fora do escopo nem apagar trabalho já realizado.
+- Não executar a próxima tarefa sem ordem explícita.
+- No início de cada tarefa, verificar PROGRESSO_VCT.md para reter decisões.
+- No fim de cada tarefa: testes pertinentes, checklist, arquivos alterados,
+  bloqueios reais e recomendação da PRÓXIMA tarefa (sem executá-la).
+- Evitar reler toda a base; inspecionar os arquivos afetados antes de editar.
+- Preferir mudanças pequenas e testáveis. Nenhum botão funcional fictício.
+- Se Supabase não estiver configurado, preparar integração e mostrar estado
+  somente leitura, em vez de fingir persistência de dados.
+
+FONTES DE CONFERÊNCIA DO FORMATO 2027:
+https://valorantesports.com/en-US/valorantesports/news/introducing-the-vct-2027-partner-teams
+https://valorantesports.com/en-US/news/vct-
+
+==========================================================================
+EQUIPES PARCEIRAS INICIAIS (VCT 2027)
+==========================================================================
+AMERICAS (8):
+100 Thieves; G2 Esports; KRÜ Esports; Leviatán; LOUD; MIBR; NRG; Sentinels.
+
+EMEA (8):
+BBL Esports; Fnatic; FUT Esports; Gentle Mates; Karmine Corp;
+Team Heretics; Team Liquid; Team Vitality.
+
+CHINA (8):
+All Gamers; Bilibili Gaming; EDward Gaming; JD Gaming; Trace Esports;
+TYLOO; Weibo Gaming; Xi Lai Gaming.
+
+PACIFIC (8):
+Crazy Raccoon; FULL SENSE; GAM Esports; Gen.G; Paper Rex;
+Rex Regum Qeon (RRQ); T1; ZETA DIVISION.
+
+IMPORTANTE: essa lista é de organizações PARCEIRAS. Uma equipe de Open
+Qualifier pode entrar no sistema posteriormente como organização não parceira.
+Para 2027, não inventar as equipes classificadas ainda não confirmadas.
+
+==========================================================================
+CHECKLIST DE EXECUÇÃO — SÓ UMA TAREFA POR PEDIDO
+==========================================================================
+
+[x] TAREFA 00 — AUDITORIA DO WORKSPACE E PLANO TÉCNICO
+--------------------------------------------------------------------------
+OBJETIVO: entender o projeto existente antes de escrever código.
+AÇÕES:
+- Inspecionar package.json, pastas, TypeScript e dependências (se existirem).
+- Criar ou atualizar PROGRESSO_VCT.md com status, decisões e próximas tarefas.
+- Registrar arquitetura prevista, dependências e eventuais riscos.
+- Não remover nem reescrever aplicações existentes.
+ACEITE: diagnóstico curto + PROGRESSO_VCT.md criado. Não desenvolver telas agora.
+
+[x] TAREFA 01 — INICIALIZAÇÃO E ESTRUTURA NEXT.JS
+--------------------------------------------------------------------------
+OBJETIVO: ter aplicação Next.js executando localmente.
+AÇÕES:
+- Inicializar ou adaptar Next.js App Router + TypeScript + Tailwind.
+- Criar src/app, src/components, src/features, src/lib, src/types.
+- Criar .env.example sem segredos e README básico com comandos.
+- Configurar lint, scripts dev/build e estrutura para futuras telas.
+ACEITE: npm run dev (ou gerenciador existente) e build básico funcionam.
+NÃO IMPLEMENTAR: páginas completas, banco, autenticação, transferências.
+
+[x] TAREFA 02 — DESIGN SYSTEM, MAGIC UI E LAYOUT BASE
+--------------------------------------------------------------------------
+OBJETIVO: identidade visual única e reutilizável.
+AÇÕES:
+- Implementar cores: #0B0D12, #151923, #1B202B, #FF4655.
+- Integrar shadcn/ui e instalar somente componentes Magic UI necessários.
+- Criar header, footer, container, card, botões e tema mobile-first.
+- Criar placeholder de logo de liga/equipe acessível e substituível.
+- Adicionar suporte a prefers-reduced-motion.
+ACEITE: layout reutilizável aprovado visualmente, sem UI exagerada.
+NÃO IMPLEMENTAR: páginas funcionais, admin, animações pesadas.
+
+[x] TAREFA 03 — DADOS INICIAIS E TIPOS — 32 PARCEIROS VCT 2027
+--------------------------------------------------------------------------
+OBJETIVO: definir fonte inicial de organizações sem inventar rosters.
+AÇÕES:
+- Criar tipos Region, Season, Organization, PartnerStatus.
+- Criar arquivo local de seed ou fixtures com 4 regiões e as 32 equipes
+  enumeradas neste plano, exatamente 8 por região.
+- Incluir nome, sigla confirmada ou opcional, slug, região, ano e status partner.
+- Preparar estrutura para categoria qualifier/visitor sem gerar equipes falsas.
+- Adicionar verificações para slugs únicos, 32 totais e 8 por região.
+ACEITE: listagem correta e validada; zero jogadores fictícios.
+NÃO IMPLEMENTAR: banco de dados remoto ou frontend completo.
+
+[x] TAREFA 04 — PÁGINA INICIAL PÚBLICA
+--------------------------------------------------------------------------
+OBJETIVO: home moderna com acesso às quatro regiões.
+AÇÕES:
+- Criar hero VCT Roster Tracker e navegação responsiva.
+- Criar quatro cards Americas, EMEA, China e Pacific usando Magic Card/Bento.
+- Exibir "8 equipes parceiras" dinamicamente pelos dados locais.
+- Inserir bloco de mudanças recentes com estado vazio real.
+- Links funcionando para /americas, /emea, /china e /pacific.
+ACEITE: home navegável, responsiva, sem números inventados.
+NÃO IMPLEMENTAR: telas regionais detalhadas ou painel admin.
+
+[x] TAREFA 05 — PÁGINAS PÚBLICAS DAS QUATRO REGIÕES
+--------------------------------------------------------------------------
+OBJETIVO: listar e localizar organizações.
+AÇÕES:
+- Criar páginas dinâmicas ou rotas /americas, /emea, /china, /pacific.
+- Mostrar cards das 8 parceiras de 2027 por região, com placeholders.
+- Implementar busca de organizações e ordenação alfabética.
+- Mostrar identificação "Parceira"; suportar futuros tipos "Qualificatória".
+- Usar layout responsivo, estados vazios e navegação para /team/[slug].
+ACEITE: quatro páginas com oito parceiras corretas, sem limite hardcoded.
+NÃO IMPLEMENTAR: rosters completos ou autenticação.
+
+[x] TAREFA 06 — PÁGINA PÚBLICA DE ORGANIZAÇÃO
+--------------------------------------------------------------------------
+OBJETIVO: criar perfil consistente de cada organização.
+AÇÕES:
+- Implementar /team/[slug] com nome, região, logo/fallback e temporada.
+- Criar seções Titulares, Reservas, Inativos, Técnicos e Histórico.
+- Os grupos sem dados devem exibir estado vazio, nunca jogadores falsos.
+- Criar cartões de jogadores reutilizáveis, com link para perfil.
+- Tratar organização não encontrada com página 404.
+ACEITE: perfil navegável de todas as 32 equipes sem inventar escalações.
+NÃO IMPLEMENTAR: edição/admin ou transferência.
+
+[x] TAREFA 07 — PÁGINA PÚBLICA INDIVIDUAL DE JOGADOR
+--------------------------------------------------------------------------
+OBJETIVO: preparar identidade única e histórico de carreira.
+AÇÕES:
+- Implementar /player/[slug] e componente de perfil de jogador.
+- Tipar nickname, nome opcional, foto opcional, nacionalidade e função.
+- Exibir equipe atual e vínculos históricos quando existirem.
+- Tratar URL inexistente e estado sem histórico.
+- Garantir que dados não dependam de nickname como ID persistente.
+ACEITE: layout e estados seguros mesmo com zero jogadores cadastrados.
+NÃO IMPLEMENTAR: inventar elencos ou criar backend ainda.
+
+[x] TAREFA 08 — SCHEMA POSTGRESQL E MIGRATIONS
+--------------------------------------------------------------------------
+OBJETIVO: modelar persistência real preservando histórico.
+AÇÕES:
+- Criar migrations SQL para regions, seasons, organizations, team_seasons,
+  players, player_slug_history, roster_memberships, roster_drafts,
+  roster_changes, admin_users, audit_logs.
+- Usar UUID, timestamps, índices, constraints e FKs.
+- Distinguir status partner/qualifier/visitor POR TEMPORADA de status
+  roster titular/reserva/inativo/técnico.
+- Preparar registros com início/fim de vínculo e alteração auditável.
+- Adicionar políticas RLS iniciais, aprimoradas na tarefa 10.
+ACEITE: migrations válidas e documentadas, sem amarrar região a 8 vagas.
+NÃO IMPLEMENTAR: editor admin completo.
+
+[x] TAREFA 09 — SUPABASE E SEED IDEMPOTENTE DE 2027
+--------------------------------------------------------------------------
+OBJETIVO: ligar dados reais ao frontend sem expor credenciais.
+AÇÕES:
+- Criar clientes server/client apropriados e variáveis .env.example.
+- Criar seed idempotente das 4 regiões, temporada 2027 e 32 parceiras.
+- Implementar leitura pública de regiões/organizações via serviço tipado.
+- Manter fallback local SOMENTE LEITURA se não houver credenciais.
+- Atualizar home, regiões e equipe para ler via camada de dados compartilhada.
+ACEITE: sem credenciais, build funciona em modo leitura; com credenciais,
+seed executa sem duplicação; nada simula gravações.
+NÃO IMPLEMENTAR: login ou CRUD ainda.
+
+[x] TAREFA 10 — LOGIN ADMINISTRATIVO E POLÍTICAS DE SEGURANÇA
+--------------------------------------------------------------------------
+OBJETIVO: proteger /admin e operações de escrita no servidor.
+AÇÕES:
+- Criar /admin/login, autenticação Supabase, logout e layout protegido.
+- Criar fluxo documentado de concessão do primeiro usuário admin.
+- Reforçar RLS: leitura pública apenas de registros publicados,
+  drafts e logs privados; escrita apenas por admin autorizado.
+- Validar permissões no servidor, não só em botões da interface.
+- Não usar service_role no browser nem senha fixa no código.
+ACEITE: acesso público a /admin bloqueado; controles de privilégio testados.
+NÃO IMPLEMENTAR: formulários completos de CRUD.
+
+[x] TAREFA 11 — DASHBOARD ADMINISTRATIVO
+--------------------------------------------------------------------------
+OBJETIVO: painel inicial com dados verdadeiros.
+AÇÕES:
+- Construir sidebar, topbar, dashboard e navegação mobile.
+- Criar cartões de total de equipes, jogadores, alterações, rascunhos.
+- Ler contagens reais do banco; exibir "sem dados" quando necessário.
+- Adicionar links para organizações, jogadores, rosters, transferências.
+ACEITE: admin navega e vê contagens reais; sem gráficos falsos.
+NÃO IMPLEMENTAR: novos CRUDs nesta etapa.
+
+[x] TAREFA 12 — CRUD DE ORGANIZAÇÕES E TEMPORADAS
+--------------------------------------------------------------------------
+OBJETIVO: permitir cadastrar e editar organizações sem limite de oito.
+AÇÕES:
+- Criar listagem, busca, formulário de criação e edição de organização.
+- Cadastrar região, temporada, nome, slug, logo e partner/qualifier/visitor.
+- Arquivar participação sem apagar histórico; preservar IDs estáveis.
+- Validar slug único e entradas com Zod + permissão no servidor.
+- Preparar upload de logo seguro se Storage estiver configurado.
+ACEITE: novo clube criado aparece publicamente após publicação prevista
+ou com política explícita de cadastro confirmado; ação não finge sucesso.
+NÃO IMPLEMENTAR: gestão de jogadores ou transferências.
+
+[x] TAREFA 13 — CRUD DE JOGADORES
+--------------------------------------------------------------------------
+OBJETIVO: identidade única e cadastro individual persistente.
+AÇÕES:
+- Criar listagem, busca, cadastro e edição de jogadores no admin.
+- Campos: nickname, nome opcional, país, função, foto e links opcionais.
+- Gerar slug único e preservar IDs e redirecionamento de slugs antigos.
+- Implementar upload de foto com limites e validação quando disponível.
+- Não apagar jogador ao removê-lo de uma equipe.
+ACEITE: jogador pode ser criado e editado sem duplicação e sem perder ID.
+NÃO IMPLEMENTAR: transferências nesta etapa.
+
+[x] TAREFA 14 — EDITOR DE ROSTERS E RASCUNHOS
+--------------------------------------------------------------------------
+OBJETIVO: alterações em escalação não aparecem até publicar.
+AÇÕES:
+- Selecionar temporada > região > equipe no admin.
+- Listar titulares, reservas, inativos e técnicos.
+- Adicionar jogador cadastrado, alterar função/status, preparar saída.
+- Salvar alterações em roster_drafts e mostrar preview de diff.
+- Garantir que site público continue exibindo versão publicada.
+- Checar conflito de jogador titular em duas equipes.
+ACEITE: criar/editar rascunho sem modificar roster público.
+NÃO IMPLEMENTAR: publicação final ou transferência entre equipes.
+
+[x] TAREFA 15 — PUBLICAÇÃO SEGURA E ATÔMICA DE ROSTERS
+--------------------------------------------------------------------------
+OBJETIVO: publicar rascunhos com integridade e auditoria.
+AÇÕES:
+- Implementar RPC/transação PostgreSQL segura para publicar draft.
+- Verificar papel do admin no servidor e dentro da operação crítica.
+- Fechar vínculos antigos e criar novos vínculos de modo consistente.
+- Registrar mudança, fonte quando houver, autor, data e before/after.
+- Prevenir estado parcialmente aplicado e publicação duplicada.
+- Invalidar cache/revalidar dados públicos após sucesso real.
+ACEITE: rosters públicos mudam só após confirmação; histórico preservado.
+NÃO IMPLEMENTAR: workflow de transferências interequipes nesta tarefa.
+
+[x] TAREFA 16 — TRANSFERÊNCIA MANUAL E LINHA DO TEMPO
+--------------------------------------------------------------------------
+OBJETIVO: mover jogador entre equipes mantendo toda a trajetória.
+AÇÕES:
+- Criar formulário admin de transferência: origem, destino, data,
+  status, observação e fonte opcional.
+- Validar destino e disponibilidade; usar publicação transacional.
+- Atualizar origem e destino no mesmo commit e registrar auditoria.
+- Criar /transfers com histórico real, filtros por região/equipe/data.
+- Mostrar linhas do tempo públicas em equipe e jogador.
+ACEITE: transferir A -> B não duplica player, preserva vínculos anteriores,
+   registro aparece em /transfers e não há mudança parcial.
+NÃO IMPLEMENTAR: scrapers, importação automática ou rumores automáticos.
+
+[x] TAREFA 17 — REVISÃO FINAL, TESTES E PREPARO PARA VERCEL
+--------------------------------------------------------------------------
+OBJETIVO: finalizar a versão 1.0 de forma verificável.
+AÇÕES:
+- Executar lint, typecheck, build e testes automatizados disponíveis.
+- Testar mobile, acessibilidade, fluxo de rascunho e publicação.
+- Testar RLS, permissões, transferência, equipe extra e histórico.
+- Revisar metadados SEO, estados vazios e assets locais.
+- Finalizar README, .env.example, migrations, seed e guia de deploy Vercel.
+- Descrever o que depende de configuração externa, sem inventar sucesso.
+ACEITE: relatório com testes executados, erros corrigidos e pendências reais.
+NÃO CRIAR: features extras fora do escopo da versão 1.0.
+
+==========================================================================
+COMO CONTINUAR EM OUTRO DIA / OUTRA SESSÃO DO CODEX
+==========================================================================
+1. Abra o mesmo workspace no VS Code.
+2. Leia PROGRESSO_VCT.md e localize a primeira tarefa ainda [ ].
+3. Peça apenas a tarefa selecionada pelo número.
+4. Se uma tarefa estiver parcial, finalize-a antes de avançar.
+5. Se houver bloqueio Supabase, mantenha modo somente leitura e registre.
+
+CHECKPOINT IDEAL APÓS CADA TAREFA (PROGRESSO_VCT.md):
+- Tarefa executada:
+- Status: concluída / parcial / bloqueada
+- Arquivos criados/alterados:
+- Comandos de teste e resultados:
+- Pendências:
+- Próximo passo autorizado: aguardar comando do usuário.
+
+FONTES PARA CONFERIR ORGANIZAÇÕES E COMPETIÇÃO:
+- Riot (parceiras 2027):
+  https://valorantesports.com/en-US/valorantesports/news/introducing-the-vct-2027-partner-teams
+- Riot (formato 2027):
+  https://valorantesports.com/en-US/news/vct-
+- Lista detalhada com nomes por região (22/10/2026):
+  https://escharts.com/news/partner-teams-vct-2027
+
+FIM DO PLANO. NÃO EXECUTE TODAS AS TAREFAS DE UMA VEZ.

@@ -1,0 +1,24 @@
+﻿EXECUTE APENAS A TAREFA 06. NÃO PROSSIGA APÓS CONCLUIR.
+
+VCT Roster Tracker | MODO CODEX ASTRA | 2027: 8 parceiros x 4 regiões = 32.
+Stack: Next.js, TypeScript, Tailwind, Magic UI, shadcn/ui, Supabase.
+Modo manual. Não inventar jogadores, rosters, transferências, logos ou estatísticas.
+Permitir outras equipes (qualifier/visitor) sem limite 8; preservar histórico.
+Não passar à próxima tarefa nem ampliar o escopo. Não fingir persistência.
+Antes: consultar PROGRESSO_VCT.md. Depois: atualizar progresso, testar e parar.
+Fonte equipes: https://escharts.com/news/partner-teams-vct-2027
+
+TAREFA 06 — PÁGINA PÚBLICA DE ORGANIZAÇÃO
+
+OBJETIVO: criar perfil consistente de cada organização.
+AÇÕES:
+- Implementar /team/[slug] com nome, região, logo/fallback e temporada.
+- Criar seções Titulares, Reservas, Inativos, Técnicos e Histórico.
+- Os grupos sem dados devem exibir estado vazio, nunca jogadores falsos.
+- Criar cartões de jogadores reutilizáveis, com link para perfil.
+- Tratar organização não encontrada com página 404.
+ACEITE: perfil navegável de todas as 32 equipes sem inventar escalações.
+NÃO IMPLEMENTAR: edição/admin ou transferência.
+
+RESPOSTA FINAL: liste de forma curta arquivos alterados, testes reais,
+pendências, e indique a próxima tarefa SEM executá-la.

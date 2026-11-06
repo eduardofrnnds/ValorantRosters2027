@@ -1,0 +1,24 @@
+﻿EXECUTE APENAS A TAREFA 13. NÃO PROSSIGA APÓS CONCLUIR.
+
+VCT Roster Tracker | MODO CODEX ASTRA | 2027: 8 parceiros x 4 regiões = 32.
+Stack: Next.js, TypeScript, Tailwind, Magic UI, shadcn/ui, Supabase.
+Modo manual. Não inventar jogadores, rosters, transferências, logos ou estatísticas.
+Permitir outras equipes (qualifier/visitor) sem limite 8; preservar histórico.
+Não passar à próxima tarefa nem ampliar o escopo. Não fingir persistência.
+Antes: consultar PROGRESSO_VCT.md. Depois: atualizar progresso, testar e parar.
+Fonte equipes: https://escharts.com/news/partner-teams-vct-2027
+
+TAREFA 13 — CRUD DE JOGADORES
+
+OBJETIVO: identidade única e cadastro individual persistente.
+AÇÕES:
+- Criar listagem, busca, cadastro e edição de jogadores no admin.
+- Campos: nickname, nome opcional, país, função, foto e links opcionais.
+- Gerar slug único e preservar IDs e redirecionamento de slugs antigos.
+- Implementar upload de foto com limites e validação quando disponível.
+- Não apagar jogador ao removê-lo de uma equipe.
+ACEITE: jogador pode ser criado e editado sem duplicação e sem perder ID.
+NÃO IMPLEMENTAR: transferências nesta etapa.
+
+RESPOSTA FINAL: liste de forma curta arquivos alterados, testes reais,
+pendências, e indique a próxima tarefa SEM executá-la.

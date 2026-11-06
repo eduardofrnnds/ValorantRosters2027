@@ -1,0 +1,26 @@
+﻿EXECUTE APENAS A TAREFA 16. NÃO PROSSIGA APÓS CONCLUIR.
+
+VCT Roster Tracker | MODO CODEX ASTRA | 2027: 8 parceiros x 4 regiões = 32.
+Stack: Next.js, TypeScript, Tailwind, Magic UI, shadcn/ui, Supabase.
+Modo manual. Não inventar jogadores, rosters, transferências, logos ou estatísticas.
+Permitir outras equipes (qualifier/visitor) sem limite 8; preservar histórico.
+Não passar à próxima tarefa nem ampliar o escopo. Não fingir persistência.
+Antes: consultar PROGRESSO_VCT.md. Depois: atualizar progresso, testar e parar.
+Fonte equipes: https://escharts.com/news/partner-teams-vct-2027
+
+TAREFA 16 — TRANSFERÊNCIA MANUAL E LINHA DO TEMPO
+
+OBJETIVO: mover jogador entre equipes mantendo toda a trajetória.
+AÇÕES:
+- Criar formulário admin de transferência: origem, destino, data,
+  status, observação e fonte opcional.
+- Validar destino e disponibilidade; usar publicação transacional.
+- Atualizar origem e destino no mesmo commit e registrar auditoria.
+- Criar /transfers com histórico real, filtros por região/equipe/data.
+- Mostrar linhas do tempo públicas em equipe e jogador.
+ACEITE: transferir A -> B não duplica player, preserva vínculos anteriores,
+   registro aparece em /transfers e não há mudança parcial.
+NÃO IMPLEMENTAR: scrapers, importação automática ou rumores automáticos.
+
+RESPOSTA FINAL: liste de forma curta arquivos alterados, testes reais,
+pendências, e indique a próxima tarefa SEM executá-la.

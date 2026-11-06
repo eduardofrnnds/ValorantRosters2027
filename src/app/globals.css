@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --background: #0b0d12;
+  --foreground: #f3f4f7;
+  --card: #151923;
+  --card-foreground: #f3f4f7;
+  --popover: #151923;
+  --popover-foreground: #f3f4f7;
+  --secondary: #1b202b;
+  --secondary-foreground: #f3f4f7;
+  --muted: #1b202b;
+  --muted-foreground: #a4adbe;
+  --accent: #1b202b;
+  --accent-foreground: #f3f4f7;
+  --primary: #ff4655;
+  --primary-foreground: #0b0d12;
+  --destructive: #ff4655;
+  --destructive-foreground: #0b0d12;
+  --border: #2c3342;
+  --input: #586278;
+  --ring: #ff7a85;
+  --radius: 0.5rem;
+  --magic-glow: #ff46551a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: "Cascadia Code", Consolas, monospace;
+}
+
+@layer base {
+  body {
+    @apply m-0 bg-background font-sans text-foreground antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 5px;
+  }
+
+  ::selection {
+    background: var(--primary);
+    color: var(--primary-foreground);
+  }
+}
+
+/* Suppress both CSS motion and the Motion pointer effect, including before hydration. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  .magic-card-glow {
+    display: none;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .magic-card-glow {
+    display: none;
+  }
+}

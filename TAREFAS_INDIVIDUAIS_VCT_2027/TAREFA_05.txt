@@ -1,0 +1,24 @@
+﻿EXECUTE APENAS A TAREFA 05. NÃO PROSSIGA APÓS CONCLUIR.
+
+VCT Roster Tracker | MODO CODEX ASTRA | 2027: 8 parceiros x 4 regiões = 32.
+Stack: Next.js, TypeScript, Tailwind, Magic UI, shadcn/ui, Supabase.
+Modo manual. Não inventar jogadores, rosters, transferências, logos ou estatísticas.
+Permitir outras equipes (qualifier/visitor) sem limite 8; preservar histórico.
+Não passar à próxima tarefa nem ampliar o escopo. Não fingir persistência.
+Antes: consultar PROGRESSO_VCT.md. Depois: atualizar progresso, testar e parar.
+Fonte equipes: https://escharts.com/news/partner-teams-vct-2027
+
+TAREFA 05 — PÁGINAS PÚBLICAS DAS QUATRO REGIÕES
+
+OBJETIVO: listar e localizar organizações.
+AÇÕES:
+- Criar páginas dinâmicas ou rotas /americas, /emea, /china, /pacific.
+- Mostrar cards das 8 parceiras de 2027 por região, com placeholders.
+- Implementar busca de organizações e ordenação alfabética.
+- Mostrar identificação "Parceira"; suportar futuros tipos "Qualificatória".
+- Usar layout responsivo, estados vazios e navegação para /team/[slug].
+ACEITE: quatro páginas com oito parceiras corretas, sem limite hardcoded.
+NÃO IMPLEMENTAR: rosters completos ou autenticação.
+
+RESPOSTA FINAL: liste de forma curta arquivos alterados, testes reais,
+pendências, e indique a próxima tarefa SEM executá-la.

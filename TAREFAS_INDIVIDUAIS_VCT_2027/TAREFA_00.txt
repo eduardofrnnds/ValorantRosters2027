@@ -1,0 +1,22 @@
+﻿EXECUTE APENAS A TAREFA 00. NÃO PROSSIGA APÓS CONCLUIR.
+
+VCT Roster Tracker | MODO CODEX ASTRA | 2027: 8 parceiros x 4 regiões = 32.
+Stack: Next.js, TypeScript, Tailwind, Magic UI, shadcn/ui, Supabase.
+Modo manual. Não inventar jogadores, rosters, transferências, logos ou estatísticas.
+Permitir outras equipes (qualifier/visitor) sem limite 8; preservar histórico.
+Não passar à próxima tarefa nem ampliar o escopo. Não fingir persistência.
+Antes: consultar PROGRESSO_VCT.md. Depois: atualizar progresso, testar e parar.
+Fonte equipes: https://escharts.com/news/partner-teams-vct-2027
+
+TAREFA 00 — AUDITORIA DO WORKSPACE E PLANO TÉCNICO
+
+OBJETIVO: entender o projeto existente antes de escrever código.
+AÇÕES:
+- Inspecionar package.json, pastas, TypeScript e dependências (se existirem).
+- Criar ou atualizar PROGRESSO_VCT.md com status, decisões e próximas tarefas.
+- Registrar arquitetura prevista, dependências e eventuais riscos.
+- Não remover nem reescrever aplicações existentes.
+ACEITE: diagnóstico curto + PROGRESSO_VCT.md criado. Não desenvolver telas agora.
+
+RESPOSTA FINAL: liste de forma curta arquivos alterados, testes reais,
+pendências, e indique a próxima tarefa SEM executá-la.

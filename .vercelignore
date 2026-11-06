@@ -1,0 +1,13 @@
+# Keep local reports, account settings and secrets out of CLI uploads.
+.git
+.next
+node_modules
+.npm-cache
+artifacts
+coverage
+.agents
+.codex
+.aws
+.env*
+*.log
+*.tsbuildinfo
