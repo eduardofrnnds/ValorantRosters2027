@@ -16,27 +16,25 @@ implantar na Vercel. O usuário solicitou ser o único autor dos commits.
 
 ## Estado da publicação
 
-**Ainda não publicado.** Não há URL de repositório remoto ou de implantação
-confirmada. O acesso CLI ao GitHub falhou ao conectar ao proxy do ambiente
-(`127.0.0.1:9`). O diagnóstico de autenticação também informou token inválido,
-mas, com a conectividade bloqueada, sua validade precisa ser reconferida.
-A continuação da instalação/execução da CLI Vercel foi recusada pela política
-de permissões do executor.
-O comando `git add .` também foi bloqueado ao criar `.git/index.lock`
-(`Permission denied`), portanto nenhum commit foi criado. A identidade local
-foi configurada, mas a gravação do índice e o commit ainda precisam ser feitos.
+**GitHub publicado:** [eduardofrnnds/ValorantRosters2027](https://github.com/eduardofrnnds/ValorantRosters2027).
+Repositório público, branch `main`, origem HTTPS configurada e código enviado.
+A API confirmou `private: false` e o commit inicial
+`fbfd26039026fcc7e23ff207df88034a4ad3df7e`, com autor e committer
+`eduardofrnnds`, sem coautores. O login GitHub foi confirmado após a ação do usuário.
 
-As integrações GitHub e Vercel foram encontradas, porém não estavam instaladas
-nem conectadas na verificação. A publicação depende de disponibilizar essas
-conexões ou um executor com acesso aos serviços. O pedido de publicação já está
-autorizado; não é necessária uma nova confirmação de intenção.
+**Vercel pendente:** nenhuma implantação ou URL confirmada. A CLI ainda precisa
+ser instalada/autenticada; a continuação da instalação interativa foi recusada
+pela política de permissões do executor. O usuário pode executar
+`npx --yes vercel login` no PowerShell local para preparar o acesso. Nenhum token
+ou senha deve ser colocado neste documento ou enviado pelo chat.
+
+O pedido de repositório público e deploy já está autorizado; não é necessária
+uma nova confirmação de intenção.
 
 Sem configuração Supabase, a implantação disponível é o catálogo público local
 somente leitura, com administração indisponível. Nenhuma credencial Supabase foi
 fornecida ou inventada. Configuração de banco/Auth/Storage permanece separada,
 conforme [DEPLOY_VERCEL.md](DEPLOY_VERCEL.md).
 
-Após restabelecer o acesso: criar o commit somente com a identidade acima,
-verificar a conta, criar o repositório público,
-enviar `main`, conectar o projeto Vercel ao repositório, implantar com Node 24 e
+Após preparar o acesso Vercel: conectar o projeto ao repositório, implantar com Node 24 e
 verificar a URL HTTPS. Registrar aqui somente URLs e resultados confirmados.

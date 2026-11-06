@@ -11,7 +11,8 @@ atômica e transferências com histórico. Não faz scraping nem inventa jogador
 logos, vínculos, estatísticas ou movimentos. A fonte local de jogadores está vazia.
 
 **Estado da entrega:** implementação e revisão local da versão 1.0 concluídas;
-publicação e homologação externa ainda pendentes. Consulte o
+o [código está público no GitHub](https://github.com/eduardofrnnds/ValorantRosters2027).
+Deploy Vercel e homologação externa ainda pendentes. Consulte o
 [relatório final](docs/REVISAO_FINAL_V1.md), o [progresso](PROGRESSO_VCT.md) e o
 [guia de deploy Vercel](docs/DEPLOY_VERCEL.md) antes de liberar produção.
 
