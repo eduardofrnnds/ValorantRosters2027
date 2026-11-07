@@ -35,7 +35,7 @@ try {
     if(path==="/admin/login") { assert.match(html,/<meta name="robots" content="[^"]*noindex/); assert.match(response.headers.get("cache-control"),/no-store/); }
     else assert.doesNotMatch(html,/<meta name="robots" content="[^"]*noindex/,path);
     if(path==="/transfers") assert.match(html,/Nenhum registro publicado para estes filtros/);
-    if(path.startsWith("/team/")) { assert.match(html,/Nenhum titular publicado/); assert.match(html,/Nenhum registro publicado no histórico/); }
+    if(path.startsWith("/team/")) { assert.match(html,/id="titulares-titulo"/); assert.match(html,/Nenhum registro publicado no histórico/); }
     for(const match of html.matchAll(/<(?:script|link|img)\b[^>]*(?:src|href)="([^"]+)"[^>]*>/g)) {
       const url=new URL(match[1].replaceAll("&amp;","&"),base);
       if(url.origin===base) assets.add(url.pathname+url.search);

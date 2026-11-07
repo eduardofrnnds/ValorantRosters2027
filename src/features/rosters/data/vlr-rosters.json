@@ -1,0 +1,2134 @@
+{
+  "checkedAt": "2026-11-07T15:02:02.808Z",
+  "teams": [
+    {
+      "organizationId": "bc09f5d6-4183-4ca4-80aa-065d060f1e1a",
+      "name": "100 Thieves",
+      "sourceUrl": "https://www.vlr.gg/team/120/100-thieves",
+      "members": [
+        {
+          "id": "vlr-20140",
+          "slug": "vora-20140",
+          "nickname": "vora",
+          "name": "Jordan Pulwer",
+          "nationality": "Canadá",
+          "photoUrl": "/images/players/vlr-20140.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/20140/vora"
+        },
+        {
+          "id": "vlr-4147",
+          "slug": "cryocells-4147",
+          "nickname": "Cryocells",
+          "name": "Matthew Panganiban",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-4147.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/4147/cryocells"
+        },
+        {
+          "id": "vlr-601",
+          "slug": "asuna-601",
+          "nickname": "Asuna",
+          "name": "Peter Mazuryk",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-601.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/601/asuna"
+        },
+        {
+          "id": "vlr-29893",
+          "slug": "timotino-29893",
+          "nickname": "Timotino",
+          "name": "Timothée Lavigne Dupont",
+          "nationality": "Canadá",
+          "photoUrl": "/images/players/vlr-29893.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/29893/timotino"
+        },
+        {
+          "id": "vlr-3880",
+          "slug": "bang-3880",
+          "nickname": "bang",
+          "name": "Sean Bezerra",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-3880.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/3880/bang"
+        },
+        {
+          "id": "vlr-1622",
+          "slug": "nbs-1622",
+          "nickname": "Nbs",
+          "name": "Laurynas Kisielius",
+          "nationality": "Lituânia",
+          "photoUrl": "/images/players/vlr-1622.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/1622/nbs"
+        },
+        {
+          "id": "vlr-452",
+          "slug": "d00mbr0s-452",
+          "nickname": "d00mbr0s",
+          "name": "Carl Erik Victor William Sandgren",
+          "nationality": "Suécia",
+          "photoUrl": "/images/players/vlr-452.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/452/d00mbr0s"
+        }
+      ]
+    },
+    {
+      "organizationId": "7858bce3-351a-446b-a79d-375a974f8f99",
+      "name": "G2 Esports",
+      "sourceUrl": "https://www.vlr.gg/team/11058/g2-esports",
+      "members": [
+        {
+          "id": "vlr-15500",
+          "slug": "trent-15500",
+          "nickname": "trent",
+          "name": "Trent Cairns",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-15500.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/15500/trent"
+        },
+        {
+          "id": "vlr-7873",
+          "slug": "leaf-7873",
+          "nickname": "leaf",
+          "name": "Nathan Orf",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-7873.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/7873/leaf"
+        },
+        {
+          "id": "vlr-52",
+          "slug": "joshrt-52",
+          "nickname": "JoshRT",
+          "name": "Josh Lee",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-52.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/52/joshrt"
+        },
+        {
+          "id": "vlr-61050",
+          "slug": "robert-61050",
+          "nickname": "Robert",
+          "name": "Robert Yip",
+          "nationality": "Irlanda",
+          "status": "coach",
+          "sourceLabel": "performance coach",
+          "sourceUrl": "https://www.vlr.gg/player/61050/robert"
+        },
+        {
+          "id": "vlr-6899",
+          "slug": "shhhack-6899",
+          "nickname": "shhhack",
+          "name": "Peter Belej",
+          "nationality": "Eslováquia",
+          "photoUrl": "/images/players/vlr-6899.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/6899/shhhack"
+        }
+      ]
+    },
+    {
+      "organizationId": "44ebc860-dd2b-44b1-8d0c-631d8bf75c7f",
+      "name": "KRÜ Esports",
+      "sourceUrl": "https://www.vlr.gg/team/2355/kr-esports",
+      "members": [
+        {
+          "id": "vlr-8447",
+          "slug": "less-8447",
+          "nickname": "Less",
+          "name": "Felipe de Loyola Basso",
+          "nationality": "Brasil",
+          "photoUrl": "/images/players/vlr-8447.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/8447/less"
+        },
+        {
+          "id": "vlr-2933",
+          "slug": "zonyk-2933",
+          "nickname": "ZONYK",
+          "name": "Nicolas Carboni",
+          "nationality": "Chile",
+          "photoUrl": "/images/players/vlr-2933.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/2933/zonyk"
+        }
+      ]
+    },
+    {
+      "organizationId": "ff5c5425-4a70-4a4e-adde-fdbf2bc87a37",
+      "name": "Leviatán",
+      "sourceUrl": "https://www.vlr.gg/team/2359/leviat-n",
+      "members": [
+        {
+          "id": "vlr-8549",
+          "slug": "kingg-8549",
+          "nickname": "kiNgg",
+          "name": "Francisco Aravena",
+          "nationality": "Chile",
+          "photoUrl": "/images/players/vlr-8549.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/8549/kingg"
+        },
+        {
+          "id": "vlr-21661",
+          "slug": "spike-21661",
+          "nickname": "spike",
+          "name": "Rodrigo Lombardi",
+          "nationality": "Brasil",
+          "photoUrl": "/images/players/vlr-21661.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/21661/spike"
+        },
+        {
+          "id": "vlr-21251",
+          "slug": "blowz-21251",
+          "nickname": "blowz",
+          "name": "Guilherme Oliviera",
+          "nationality": "Brasil",
+          "photoUrl": "/images/players/vlr-21251.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/21251/blowz"
+        },
+        {
+          "id": "vlr-29243",
+          "slug": "neon-29243",
+          "nickname": "Neon",
+          "name": "Bruno Rodríguez",
+          "nationality": "Argentina",
+          "photoUrl": "/images/players/vlr-29243.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/29243/neon"
+        },
+        {
+          "id": "vlr-21659",
+          "slug": "sato-21659",
+          "nickname": "Sato",
+          "name": "Eduardo Kenzo Nagahama Sato",
+          "nationality": "Brasil",
+          "photoUrl": "/images/players/vlr-21659.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/21659/sato"
+        },
+        {
+          "id": "vlr-2455",
+          "slug": "onur-2455",
+          "nickname": "Onur",
+          "name": "Rodrigo Dalmagro",
+          "nationality": "Argentina",
+          "photoUrl": "/images/players/vlr-2455.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/2455/onur"
+        }
+      ]
+    },
+    {
+      "organizationId": "501f7832-68d7-4163-811e-197f4fc22f0e",
+      "name": "LOUD",
+      "sourceUrl": "https://www.vlr.gg/team/6961/loud",
+      "members": [
+        {
+          "id": "vlr-29242",
+          "slug": "erde-29242",
+          "nickname": "erde",
+          "name": "Roberto Lobos",
+          "nationality": "Chile",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/29242/erde"
+        },
+        {
+          "id": "vlr-28716",
+          "slug": "lukxo-28716",
+          "nickname": "lukxo",
+          "name": "Lucca Travaioli",
+          "nationality": "Brasil",
+          "photoUrl": "/images/players/vlr-28716.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/28716/lukxo"
+        },
+        {
+          "id": "vlr-10885",
+          "slug": "davih-10885",
+          "nickname": "DaviH",
+          "name": "David Cruz",
+          "nationality": "Portugal",
+          "photoUrl": "/images/players/vlr-10885.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/10885/davih"
+        },
+        {
+          "id": "vlr-10557",
+          "slug": "darker-10557",
+          "nickname": "Darker",
+          "name": "Sebastián Castro Cicuamia",
+          "nationality": "Colômbia",
+          "photoUrl": "/images/players/vlr-10557.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/10557/darker"
+        },
+        {
+          "id": "vlr-20833",
+          "slug": "romanilly-20833",
+          "nickname": "Romanilly",
+          "name": "Gonzalo Manzano",
+          "nationality": "Argentina",
+          "photoUrl": "/images/players/vlr-20833.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/20833/romanilly"
+        },
+        {
+          "id": "vlr-5203",
+          "slug": "bati-5203",
+          "nickname": "Bati",
+          "name": "Miguel Batista",
+          "nationality": "Portugal",
+          "photoUrl": "/images/players/vlr-5203.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/5203/bati"
+        },
+        {
+          "id": "vlr-57334",
+          "slug": "bajerski-57334",
+          "nickname": "bajerski",
+          "name": "Lucas Bajerski Pereira",
+          "nationality": "Brasil",
+          "photoUrl": "/images/players/vlr-57334.png",
+          "status": "coach",
+          "sourceLabel": "performance coach",
+          "sourceUrl": "https://www.vlr.gg/player/57334/bajerski"
+        }
+      ]
+    },
+    {
+      "organizationId": "17603c5f-b7c3-4140-8411-f28391935538",
+      "name": "MIBR",
+      "sourceUrl": "https://www.vlr.gg/team/7386/mibr",
+      "members": [
+        {
+          "id": "vlr-1818",
+          "slug": "tex-1818",
+          "nickname": "tex",
+          "name": "Ian Botsch",
+          "nationality": "Alemanha",
+          "photoUrl": "/images/players/vlr-1818.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/1818/tex"
+        },
+        {
+          "id": "vlr-4004",
+          "slug": "zekken-4004",
+          "nickname": "zekken",
+          "name": "Zachary Patrone",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-4004.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/4004/zekken"
+        },
+        {
+          "id": "vlr-7603",
+          "slug": "mazino-7603",
+          "nickname": "Mazino",
+          "name": "Roberto Rivas",
+          "nationality": "Chile",
+          "photoUrl": "/images/players/vlr-7603.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/7603/mazino"
+        },
+        {
+          "id": "vlr-21668",
+          "slug": "verno-21668",
+          "nickname": "Verno",
+          "name": "Andrew Maust",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-21668.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/21668/verno"
+        },
+        {
+          "id": "vlr-8480",
+          "slug": "aspas-8480",
+          "nickname": "aspas",
+          "name": "Erick Santos",
+          "nationality": "Brasil",
+          "photoUrl": "/images/players/vlr-8480.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/8480/aspas"
+        },
+        {
+          "id": "vlr-145",
+          "slug": "frod-145",
+          "nickname": "fRoD",
+          "name": "Daniel Montaner",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-145.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/145/frod"
+        },
+        {
+          "id": "vlr-255",
+          "slug": "happy-255",
+          "nickname": "Happy",
+          "name": "Vincent Schopenhauer",
+          "nationality": "França",
+          "photoUrl": "/images/players/vlr-255.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/255/happy"
+        }
+      ]
+    },
+    {
+      "organizationId": "d281e0f5-7505-4102-a028-047e244e0ead",
+      "name": "NRG",
+      "sourceUrl": "https://www.vlr.gg/team/1034/nrg",
+      "members": [
+        {
+          "id": "vlr-11225",
+          "slug": "ethan-11225",
+          "nickname": "Ethan",
+          "name": "Ethan Arnold",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-11225.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/11225/ethan"
+        },
+        {
+          "id": "vlr-5132",
+          "slug": "mada-5132",
+          "nickname": "mada",
+          "name": "Adam Pampuch",
+          "nationality": "Canadá",
+          "photoUrl": "/images/players/vlr-5132.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/5132/mada"
+        },
+        {
+          "id": "vlr-11118",
+          "slug": "skuba-11118",
+          "nickname": "skuba",
+          "name": "Logan Jenkins",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-11118.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/11118/skuba"
+        },
+        {
+          "id": "vlr-7",
+          "slug": "bonkar-7",
+          "nickname": "bonkar",
+          "name": "Malkolm Rench",
+          "nationality": "Suécia",
+          "photoUrl": "/images/players/vlr-7.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/7/bonkar"
+        },
+        {
+          "id": "vlr-612",
+          "slug": "mitch-612",
+          "nickname": "mitch",
+          "name": "Mitch Semago",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-612.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/612/mitch"
+        }
+      ]
+    },
+    {
+      "organizationId": "77732b62-ae24-42df-a739-8bb1d278e7b2",
+      "name": "Sentinels",
+      "sourceUrl": "https://www.vlr.gg/team/2/sentinels",
+      "members": [
+        {
+          "id": "vlr-1265",
+          "slug": "johnqt-1265",
+          "nickname": "johnqt",
+          "name": "Mohamed Amine Ouarid",
+          "nationality": "Marrocos",
+          "photoUrl": "/images/players/vlr-1265.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/1265/johnqt"
+        },
+        {
+          "id": "vlr-8419",
+          "slug": "reduxx-8419",
+          "nickname": "Reduxx",
+          "name": "Yassin Aboulalazm",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-8419.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/8419/reduxx"
+        },
+        {
+          "id": "vlr-18796",
+          "slug": "oxy-18796",
+          "nickname": "OXY",
+          "name": "Francis Hoang",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-18796.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/18796/oxy"
+        },
+        {
+          "id": "vlr-2172",
+          "slug": "brawk-2172",
+          "nickname": "brawk",
+          "name": "Brock Somerhalder",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-2172.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/2172/brawk"
+        },
+        {
+          "id": "vlr-36560",
+          "slug": "canezerra-36560",
+          "nickname": "canezerra",
+          "name": "Alex Banyasz",
+          "nationality": "Estados Unidos",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/36560/canezerra"
+        },
+        {
+          "id": "vlr-5395",
+          "slug": "cortezia-5395",
+          "nickname": "cortezia",
+          "name": "Gabriel Cortez",
+          "nationality": "Brasil",
+          "photoUrl": "/images/players/vlr-5395.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/5395/cortezia"
+        },
+        {
+          "id": "vlr-8347",
+          "slug": "ewok-8347",
+          "nickname": "Ewok",
+          "name": "Marthinus Jacobus Van Der Walt",
+          "nationality": "África do Sul",
+          "photoUrl": "/images/players/vlr-8347.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/8347/ewok"
+        },
+        {
+          "id": "vlr-28113",
+          "slug": "gunter-28113",
+          "nickname": "GUNTER",
+          "name": "Luke Clives",
+          "nationality": "Reino Unido",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/28113/gunter"
+        }
+      ]
+    },
+    {
+      "organizationId": "826ec70e-f97a-447b-9ca0-be92f06bbf9e",
+      "name": "BBL Esports",
+      "sourceUrl": "https://www.vlr.gg/team/397/bbl-esports",
+      "members": [
+        {
+          "id": "vlr-31305",
+          "slug": "lar0k-31305",
+          "nickname": "Lar0k",
+          "name": "Yusuf Kaan Kanber",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-31305.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/31305/lar0k"
+        },
+        {
+          "id": "vlr-24344",
+          "slug": "loita-24344",
+          "nickname": "Loita",
+          "name": "Utku Kart",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-24344.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/24344/loita"
+        },
+        {
+          "id": "vlr-5565",
+          "slug": "ros-5565",
+          "nickname": "Rosé",
+          "name": "Eren Erzan",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-5565.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/5565/ros"
+        },
+        {
+          "id": "vlr-12795",
+          "slug": "crewen-12795",
+          "nickname": "Crewen",
+          "name": "Ali Eren Sargin",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-12795.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/12795/crewen"
+        },
+        {
+          "id": "vlr-40935",
+          "slug": "lovers-rock-40935",
+          "nickname": "lovers rock",
+          "name": "Umut Pekdoğan",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-40935.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/40935/lovers-rock"
+        },
+        {
+          "id": "vlr-15042",
+          "slug": "key-15042",
+          "nickname": "KEY",
+          "name": "Mert Çelebi",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-15042.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/15042/key"
+        }
+      ]
+    },
+    {
+      "organizationId": "11457405-202c-4e18-b668-3d69e52c93b6",
+      "name": "Fnatic",
+      "sourceUrl": "https://www.vlr.gg/team/2593/fnatic",
+      "members": [
+        {
+          "id": "vlr-9554",
+          "slug": "kaajak-9554",
+          "nickname": "kaajak",
+          "name": "Kajetan Haremski",
+          "nationality": "Polônia",
+          "photoUrl": "/images/players/vlr-9554.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/9554/kaajak"
+        },
+        {
+          "id": "vlr-4181",
+          "slug": "cloud-4181",
+          "nickname": "Cloud",
+          "name": "Kirill Nehozhin",
+          "nationality": "Rússia",
+          "photoUrl": "/images/players/vlr-4181.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/4181/cloud"
+        }
+      ]
+    },
+    {
+      "organizationId": "ba47982b-4a5c-4aad-a66d-648b17e3a35f",
+      "name": "FUT Esports",
+      "sourceUrl": "https://www.vlr.gg/team/1184/fut-esports",
+      "members": [
+        {
+          "id": "vlr-8369",
+          "slug": "yetujey-8369",
+          "nickname": "yetujey",
+          "name": "Eray Budak",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-8369.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/8369/yetujey"
+        },
+        {
+          "id": "vlr-15735",
+          "slug": "krostaly-15735",
+          "nickname": "KROSTALY",
+          "name": "Okan Alaçam",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-15735.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/15735/krostaly"
+        },
+        {
+          "id": "vlr-21328",
+          "slug": "wo0t-21328",
+          "nickname": "Wo0t",
+          "name": "Mert Alkan",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-21328.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/21328/wo0t"
+        },
+        {
+          "id": "vlr-14222",
+          "slug": "bambino-14222",
+          "nickname": "Bambino",
+          "name": "Tyler Jay",
+          "nationality": "Reino Unido",
+          "photoUrl": "/images/players/vlr-14222.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/14222/bambino"
+        }
+      ]
+    },
+    {
+      "organizationId": "e4b6c65c-11d5-4c90-a60b-80b4c095360e",
+      "name": "Gentle Mates",
+      "sourceUrl": "https://www.vlr.gg/team/12694/gentle-mates",
+      "members": [
+        {
+          "id": "vlr-18400",
+          "slug": "bipo-18400",
+          "nickname": "bipo",
+          "name": "Taranvir Singh",
+          "nationality": "Itália",
+          "photoUrl": "/images/players/vlr-18400.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/18400/bipo"
+        }
+      ]
+    },
+    {
+      "organizationId": "5e83018f-0657-4e98-a323-19eddd488c84",
+      "name": "Karmine Corp",
+      "sourceUrl": "https://www.vlr.gg/team/8877/karmine-corp",
+      "members": [
+        {
+          "id": "vlr-5654",
+          "slug": "avez-5654",
+          "nickname": "Avez",
+          "name": "Hazem Khaled",
+          "nationality": "Egito",
+          "photoUrl": "/images/players/vlr-5654.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/5654/avez"
+        },
+        {
+          "id": "vlr-16215",
+          "slug": "dos9-16215",
+          "nickname": "dos9",
+          "name": "Zhumagali Dastan",
+          "nationality": "Cazaquistão",
+          "photoUrl": "/images/players/vlr-16215.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/16215/dos9"
+        },
+        {
+          "id": "vlr-20144",
+          "slug": "lewn-20144",
+          "nickname": "LewN",
+          "name": "Burak Alkan",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-20144.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/20144/lewn"
+        },
+        {
+          "id": "vlr-2858",
+          "slug": "suygetsu-2858",
+          "nickname": "SUYGETSU",
+          "name": "Dmitry Ilyushin",
+          "nationality": "Nações Unidas",
+          "photoUrl": "/images/players/vlr-2858.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/2858/suygetsu"
+        },
+        {
+          "id": "vlr-36245",
+          "slug": "n4rrate-36245",
+          "nickname": "N4RRATE",
+          "name": "Marshall Massey",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-36245.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/36245/n4rrate"
+        },
+        {
+          "id": "vlr-48705",
+          "slug": "chaza-48705",
+          "nickname": "Chaza",
+          "name": "Charlie Phillips",
+          "nationality": "Reino Unido",
+          "status": "reserve",
+          "sourceLabel": "Sub",
+          "sourceUrl": "https://www.vlr.gg/player/48705/chaza"
+        },
+        {
+          "id": "vlr-1428",
+          "slug": "sheydos-1428",
+          "nickname": "sheydos",
+          "name": "Bogdan Naumov",
+          "nationality": "Rússia",
+          "photoUrl": "/images/players/vlr-1428.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/1428/sheydos"
+        },
+        {
+          "id": "vlr-302",
+          "slug": "ze1sh-302",
+          "nickname": "ZE1SH",
+          "name": "Ahmed El Sheikh",
+          "nationality": "Egito",
+          "photoUrl": "/images/players/vlr-302.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/302/ze1sh"
+        },
+        {
+          "id": "vlr-1943",
+          "slug": "simoz-1943",
+          "nickname": "simoz",
+          "name": "Simone Giovannini",
+          "nationality": "Itália",
+          "photoUrl": "/images/players/vlr-1943.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/1943/simoz"
+        }
+      ]
+    },
+    {
+      "organizationId": "380f264d-a23d-43de-b0b6-2ad3ec6c8ade",
+      "name": "Team Heretics",
+      "sourceUrl": "https://www.vlr.gg/team/1001/team-heretics",
+      "members": [
+        {
+          "id": "vlr-10971",
+          "slug": "riens-10971",
+          "nickname": "RieNs",
+          "name": "Enes Ecirli",
+          "nationality": "Turquia",
+          "photoUrl": "/images/players/vlr-10971.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/10971/riens"
+        },
+        {
+          "id": "vlr-29873",
+          "slug": "benjyfishy-29873",
+          "nickname": "benjyfishy",
+          "name": "Benjamin David Fish",
+          "nationality": "Reino Unido",
+          "photoUrl": "/images/players/vlr-29873.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/29873/benjyfishy"
+        },
+        {
+          "id": "vlr-2039",
+          "slug": "neilzinho-2039",
+          "nickname": "neilzinho",
+          "name": "Neil Finlay",
+          "nationality": "Reino Unido",
+          "photoUrl": "/images/players/vlr-2039.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/2039/neilzinho"
+        },
+        {
+          "id": "vlr-2038",
+          "slug": "weber-2038",
+          "nickname": "weber",
+          "name": "Brandon Weber",
+          "nationality": "Reino Unido",
+          "photoUrl": "/images/players/vlr-2038.png",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/2038/weber"
+        },
+        {
+          "id": "vlr-61337",
+          "slug": "rob-61337",
+          "nickname": "Rob",
+          "name": "Robert William Davies",
+          "nationality": "WA",
+          "status": "coach",
+          "sourceLabel": "performance coach",
+          "sourceUrl": "https://www.vlr.gg/player/61337/rob"
+        }
+      ]
+    },
+    {
+      "organizationId": "600b275b-af04-4189-b129-4ab6a0698058",
+      "name": "Team Liquid",
+      "sourceUrl": "https://www.vlr.gg/team/474/team-liquid",
+      "members": [
+        {
+          "id": "vlr-14681",
+          "slug": "kamo-14681",
+          "nickname": "kamo",
+          "name": "Kamil Frąckowiak",
+          "nationality": "Polônia",
+          "photoUrl": "/images/players/vlr-14681.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/14681/kamo"
+        },
+        {
+          "id": "vlr-50813",
+          "slug": "gsr-50813",
+          "nickname": "GSR",
+          "name": "Ognjen Bondžić",
+          "nationality": "Sérvia",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/50813/gsr"
+        },
+        {
+          "id": "vlr-457",
+          "slug": "nats-457",
+          "nickname": "nAts",
+          "name": "Ayaz Akhmetshin",
+          "nationality": "Rússia",
+          "photoUrl": "/images/players/vlr-457.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/457/nats"
+        },
+        {
+          "id": "vlr-2881",
+          "slug": "lohan-2881",
+          "nickname": "LohaN",
+          "name": "Ivo Albino",
+          "nationality": "Portugal",
+          "photoUrl": "/images/players/vlr-2881.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/2881/lohan"
+        },
+        {
+          "id": "vlr-1474",
+          "slug": "yaotzin-1474",
+          "nickname": "yaotziN.",
+          "name": "Daniel Roczniak",
+          "nationality": "Polônia",
+          "photoUrl": "/images/players/vlr-1474.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/1474/yaotzin"
+        },
+        {
+          "id": "vlr-39",
+          "slug": "7teen-39",
+          "nickname": "7Teen",
+          "name": "Tanner Curtis",
+          "nationality": "Estados Unidos",
+          "status": "coach",
+          "sourceLabel": "performance coach",
+          "sourceUrl": "https://www.vlr.gg/player/39/7teen"
+        }
+      ]
+    },
+    {
+      "organizationId": "7401e259-1703-4042-827f-44998e0864ed",
+      "name": "Team Vitality",
+      "sourceUrl": "https://www.vlr.gg/team/2059/team-vitality",
+      "members": [
+        {
+          "id": "vlr-9780",
+          "slug": "jamppi-9780",
+          "nickname": "Jamppi",
+          "name": "Elias Olkkonen",
+          "nationality": "Finlândia",
+          "photoUrl": "/images/players/vlr-9780.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/9780/jamppi"
+        },
+        {
+          "id": "vlr-5554",
+          "slug": "profek-5554",
+          "nickname": "PROFEK",
+          "name": "Dawid Święć",
+          "nationality": "Polônia",
+          "photoUrl": "/images/players/vlr-5554.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/5554/profek"
+        },
+        {
+          "id": "vlr-458",
+          "slug": "chronicle-458",
+          "nickname": "Chronicle",
+          "name": "Timofey Khromov",
+          "nationality": "Rússia",
+          "photoUrl": "/images/players/vlr-458.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/458/chronicle"
+        },
+        {
+          "id": "vlr-33902",
+          "slug": "sayonara-33902",
+          "nickname": "Sayonara",
+          "name": "Ștefan Mîtcu",
+          "nationality": "Moldávia",
+          "photoUrl": "/images/players/vlr-33902.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/33902/sayonara"
+        },
+        {
+          "id": "vlr-42554",
+          "slug": "scuttt-42554",
+          "nickname": "Scuttt",
+          "name": "Benjamin Hutchinson",
+          "nationality": "Irlanda",
+          "photoUrl": "/images/players/vlr-42554.png",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/42554/scuttt"
+        }
+      ]
+    },
+    {
+      "organizationId": "6a9b903f-6b40-4826-b049-a41ce34d4847",
+      "name": "All Gamers",
+      "sourceUrl": "https://www.vlr.gg/team/1119/all-gamers",
+      "members": [
+        {
+          "id": "vlr-25494",
+          "slug": "shr1mp-25494",
+          "nickname": "Shr1mp",
+          "name": "Yang Yong (杨勇)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-25494.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/25494/shr1mp"
+        },
+        {
+          "id": "vlr-46748",
+          "slug": "k1ra-46748",
+          "nickname": "K1ra",
+          "name": "Huang Zhihao (黄志豪)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-46748.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/46748/k1ra"
+        },
+        {
+          "id": "vlr-21216",
+          "slug": "f4ngeer-21216",
+          "nickname": "f4ngeer",
+          "name": "Roman Smirnov",
+          "nationality": "Rússia",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/21216/f4ngeer"
+        },
+        {
+          "id": "vlr-58959",
+          "slug": "iamgrq-58959",
+          "nickname": "iamgrq",
+          "name": "Gao Ruiqi (高锐琦)",
+          "nationality": "China",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/58959/iamgrq"
+        },
+        {
+          "id": "vlr-29742",
+          "slug": "anxios-29742",
+          "nickname": "ANXiOS",
+          "name": "Victor Troshkin",
+          "nationality": "Rússia",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/29742/anxios"
+        }
+      ]
+    },
+    {
+      "organizationId": "552c7d64-53cc-45ab-bad2-b203400550d4",
+      "name": "Bilibili Gaming",
+      "sourceUrl": "https://www.vlr.gg/team/12010/bilibili-gaming",
+      "members": [
+        {
+          "id": "vlr-4885",
+          "slug": "whzy-4885",
+          "nickname": "whzy",
+          "name": "Wang Haozhe (王昊哲)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-4885.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/4885/whzy"
+        },
+        {
+          "id": "vlr-48878",
+          "slug": "rushia-48878",
+          "nickname": "rushia",
+          "name": "Wang Xiaojie (王晓杰)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-48878.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/48878/rushia"
+        },
+        {
+          "id": "vlr-10698",
+          "slug": "nephh-10698",
+          "nickname": "nephh",
+          "name": "Marcus Tan",
+          "nationality": "Singapura",
+          "photoUrl": "/images/players/vlr-10698.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/10698/nephh"
+        },
+        {
+          "id": "vlr-62947",
+          "slug": "yilai-62947",
+          "nickname": "yilai",
+          "name": "Gu Yiming (顾依铭)",
+          "nationality": "China",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/62947/yilai"
+        },
+        {
+          "id": "vlr-4774",
+          "slug": "knight-4774",
+          "nickname": "Knight",
+          "name": "Liu Yuxiang (刘宇翔)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-4774.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/4774/knight"
+        },
+        {
+          "id": "vlr-56260",
+          "slug": "bud-56260",
+          "nickname": "bud",
+          "name": "Yang Renyu (杨韧余)",
+          "nationality": "China",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/56260/bud"
+        },
+        {
+          "id": "vlr-64029",
+          "slug": "ft-64029",
+          "nickname": "FT",
+          "name": "Yan Shuaibo (闫帅博)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-64029.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/64029/ft"
+        },
+        {
+          "id": "vlr-40845",
+          "slug": "levius-40845",
+          "nickname": "Levius",
+          "name": "Lu Yinzhong (卢胤中)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-40845.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/40845/levius"
+        },
+        {
+          "id": "vlr-59555",
+          "slug": "yaoxie-59555",
+          "nickname": "YaoXie",
+          "name": "Zhang Jihang (張繼航)",
+          "nationality": "China",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/59555/yaoxie"
+        },
+        {
+          "id": "vlr-39525",
+          "slug": "jexen-39525",
+          "nickname": "Jexen",
+          "name": "Wang Lin Xiao (王林骁)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-39525.png",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/39525/jexen"
+        },
+        {
+          "id": "vlr-2331",
+          "slug": "anaks-2331",
+          "nickname": "Anaks",
+          "name": "Ye Sang-jun (예상준)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-2331.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/2331/anaks"
+        }
+      ]
+    },
+    {
+      "organizationId": "4cec387f-0f3c-4486-9ddf-ccf7e1251d05",
+      "name": "EDward Gaming",
+      "sourceUrl": "https://www.vlr.gg/team/1120/edward-gaming",
+      "members": [
+        {
+          "id": "vlr-3017",
+          "slug": "nobody-3017",
+          "nickname": "nobody",
+          "name": "Wang Senxu (王森旭)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-3017.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/3017/nobody"
+        },
+        {
+          "id": "vlr-3520",
+          "slug": "zmjjkk-3520",
+          "nickname": "ZmjjKK",
+          "name": "Zheng Yongkang (郑永康)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-3520.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/3520/zmjjkk"
+        },
+        {
+          "id": "vlr-15559",
+          "slug": "chichoo-15559",
+          "nickname": "CHICHOO",
+          "name": "Wan Shunzhi (万顺治)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-15559.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/15559/chichoo"
+        },
+        {
+          "id": "vlr-4742",
+          "slug": "smoggy-4742",
+          "nickname": "Smoggy",
+          "name": "Zhang Zhao (张钊)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-4742.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/4742/smoggy"
+        },
+        {
+          "id": "vlr-51244",
+          "slug": "jieni7-51244",
+          "nickname": "Jieni7",
+          "name": "Zhang Juntai (张君泰)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-51244.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/51244/jieni7"
+        },
+        {
+          "id": "vlr-16924",
+          "slug": "stew-16924",
+          "nickname": "stew",
+          "name": "Park Young-chan (박영찬)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-16924.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/16924/stew"
+        },
+        {
+          "id": "vlr-7135",
+          "slug": "zjc-7135",
+          "nickname": "zjc",
+          "name": "Zhang Juncheng (张峻程)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-7135.png",
+          "status": "reserve",
+          "sourceLabel": "Sub",
+          "sourceUrl": "https://www.vlr.gg/player/7135/zjc"
+        },
+        {
+          "id": "vlr-2504",
+          "slug": "autumn-2504",
+          "nickname": "Autumn",
+          "name": "Yoon Eu-teum (윤으뜸)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-2504.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/2504/autumn"
+        },
+        {
+          "id": "vlr-44793",
+          "slug": "indigo-44793",
+          "nickname": "Indigo",
+          "name": "Seol Do-hoon (설도훈)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-44793.png",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/44793/indigo"
+        },
+        {
+          "id": "vlr-1175",
+          "slug": "signed-1175",
+          "nickname": "signed",
+          "name": "Dale Tang",
+          "nationality": "Nova Zelândia",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/1175/signed"
+        }
+      ]
+    },
+    {
+      "organizationId": "0d17b910-8c1c-4093-b022-120339af26e4",
+      "name": "JD Gaming",
+      "sourceUrl": "https://www.vlr.gg/team/13576/jd-gaming",
+      "members": [
+        {
+          "id": "vlr-7857",
+          "slug": "berlin-7857",
+          "nickname": "BerLIN",
+          "name": "Zhang Bolin (張柏霖)",
+          "nationality": "Taiwan",
+          "photoUrl": "/images/players/vlr-7857.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/7857/berlin"
+        },
+        {
+          "id": "vlr-3519",
+          "slug": "jkuro-3519",
+          "nickname": "jkuro",
+          "name": "Yong Haochong (杨浩聪)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-3519.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/3519/jkuro"
+        },
+        {
+          "id": "vlr-49476",
+          "slug": "zhe-49476",
+          "nickname": "zhe",
+          "name": "Niu Zhe (牛哲)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-49476.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/49476/zhe"
+        },
+        {
+          "id": "vlr-11218",
+          "slug": "yuicaw-11218",
+          "nickname": "Yuicaw",
+          "name": "Huang Yung-chieh (黃湧傑)",
+          "nationality": "Taiwan",
+          "photoUrl": "/images/players/vlr-11218.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/11218/yuicaw"
+        },
+        {
+          "id": "vlr-64969",
+          "slug": "crownfisher-64969",
+          "nickname": "crownfisher",
+          "name": "Li Ao (李翱)",
+          "nationality": "China",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/64969/crownfisher"
+        },
+        {
+          "id": "vlr-980",
+          "slug": "bail-980",
+          "nickname": "bail",
+          "name": "Lee Sung-jae (이성재)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-980.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/980/bail"
+        },
+        {
+          "id": "vlr-61268",
+          "slug": "desire-61268",
+          "nickname": "Desire",
+          "name": "Peng Siji (彭思骥)",
+          "nationality": "China",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/61268/desire"
+        }
+      ]
+    },
+    {
+      "organizationId": "fdcd8718-23a6-4cb9-bf51-5f0fc3653da1",
+      "name": "Trace Esports",
+      "sourceUrl": "https://www.vlr.gg/team/12685/trace-esports",
+      "members": [
+        {
+          "id": "vlr-3045",
+          "slug": "luok1ng-3045",
+          "nickname": "LuoK1ng",
+          "name": "Zhang Zhanpeng (张展鹏)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-3045.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/3045/luok1ng"
+        },
+        {
+          "id": "vlr-37494",
+          "slug": "kai-37494",
+          "nickname": "Kai",
+          "name": "Lu Zhinan (卢智楠)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-37494.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/37494/kai"
+        },
+        {
+          "id": "vlr-4770",
+          "slug": "fengf-4770",
+          "nickname": "FengF",
+          "name": "Song Xuefeng (宋学锋)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-4770.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/4770/fengf"
+        },
+        {
+          "id": "vlr-51249",
+          "slug": "fkey-51249",
+          "nickname": "FKEY",
+          "name": "Ke Chen",
+          "nationality": "China",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/51249/fkey"
+        },
+        {
+          "id": "vlr-10821",
+          "slug": "delb-10821",
+          "nickname": "deLb",
+          "name": "Delbert Tanoto",
+          "nationality": "Indonésia",
+          "photoUrl": "/images/players/vlr-10821.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/10821/delb"
+        },
+        {
+          "id": "vlr-5011",
+          "slug": "abo-5011",
+          "nickname": "Abo",
+          "name": "Han Bohao (韩博皓)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-5011.png",
+          "status": "reserve",
+          "sourceLabel": "Sub",
+          "sourceUrl": "https://www.vlr.gg/player/5011/abo"
+        },
+        {
+          "id": "vlr-66427",
+          "slug": "toosy-66427",
+          "nickname": "Toosy",
+          "name": "Wu Yufeng (吴雨峰)",
+          "nationality": "China",
+          "status": "reserve",
+          "sourceLabel": "Sub",
+          "sourceUrl": "https://www.vlr.gg/player/66427/toosy"
+        },
+        {
+          "id": "vlr-15249",
+          "slug": "destroyer-15249",
+          "nickname": "destroyeR",
+          "name": "Gu Jiaming (顾佳鸣)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-15249.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/15249/destroyer"
+        },
+        {
+          "id": "vlr-38518",
+          "slug": "yiyee-38518",
+          "nickname": "Yiyee",
+          "name": "Zhang Tianyuan (张天元)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-38518.png",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/38518/yiyee"
+        },
+        {
+          "id": "vlr-36415",
+          "slug": "viva-36415",
+          "nickname": "Viva",
+          "name": "Lifan Ran (冉立凡)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-36415.png",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/36415/viva"
+        }
+      ]
+    },
+    {
+      "organizationId": "14c9539d-ab64-451b-9b3a-94ef763a9ffd",
+      "name": "TYLOO",
+      "sourceUrl": "https://www.vlr.gg/team/731/tyloo",
+      "members": [
+        {
+          "id": "vlr-7849",
+          "slug": "siufatbb-7849",
+          "nickname": "SiuFatBB",
+          "name": "Pong Gaa Hei (庞加曦)",
+          "nationality": "Hong Kong, RAE da China",
+          "photoUrl": "/images/players/vlr-7849.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/7849/siufatbb"
+        },
+        {
+          "id": "vlr-36685",
+          "slug": "splash-36685",
+          "nickname": "splash",
+          "name": "Moses Christophe Jonathan",
+          "nationality": "Indonésia",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/36685/splash"
+        },
+        {
+          "id": "vlr-39485",
+          "slug": "scales-39485",
+          "nickname": "Scales",
+          "name": "Zhang Zhen (张震)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-39485.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/39485/scales"
+        },
+        {
+          "id": "vlr-55085",
+          "slug": "erv-55085",
+          "nickname": "Erv",
+          "name": "Shen Zhiwei",
+          "nationality": "China",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/55085/erv"
+        },
+        {
+          "id": "vlr-41739",
+          "slug": "slowly-41739",
+          "nickname": "slowly",
+          "name": "Kelun Sun (孙科伦)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-41739.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/41739/slowly"
+        },
+        {
+          "id": "vlr-64854",
+          "slug": "xihe-64854",
+          "nickname": "xihe",
+          "name": "Peng Wenbo (彭文博)",
+          "nationality": "China",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/64854/xihe"
+        },
+        {
+          "id": "vlr-48568",
+          "slug": "hypnotizing-48568",
+          "nickname": "hypnotizing",
+          "name": "Xie Haozhi (谢昊志)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-48568.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/48568/hypnotizing"
+        },
+        {
+          "id": "vlr-34214",
+          "slug": "billyo-34214",
+          "nickname": "Billyo",
+          "name": "Li Xinyu (李新宇)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-34214.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/34214/billyo"
+        },
+        {
+          "id": "vlr-3049",
+          "slug": "sword9-3049",
+          "nickname": "sword9",
+          "name": "Li Wei (李卫)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-3049.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/3049/sword9"
+        }
+      ]
+    },
+    {
+      "organizationId": "407cd5ad-3029-4149-b130-b3158f490b09",
+      "name": "Weibo Gaming",
+      "sourceUrl": "https://www.vlr.gg/team/1224/weibo-gaming",
+      "members": [
+        {
+          "id": "vlr-11843",
+          "slug": "yoyo-11843",
+          "nickname": "Yoyo",
+          "name": "Xu Youxiang (徐佑翔)",
+          "nationality": "Taiwan",
+          "photoUrl": "/images/players/vlr-11843.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/11843/yoyo"
+        },
+        {
+          "id": "vlr-46532",
+          "slug": "satoshi-46532",
+          "nickname": "Satoshi",
+          "name": "Fei Zhixian (费郅贤)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-46532.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/46532/satoshi"
+        },
+        {
+          "id": "vlr-4712",
+          "slug": "heybay-4712",
+          "nickname": "heybay",
+          "name": "Ho Shun Hei",
+          "nationality": "Hong Kong, RAE da China",
+          "photoUrl": "/images/players/vlr-4712.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/4712/heybay"
+        },
+        {
+          "id": "vlr-58014",
+          "slug": "leav3u-58014",
+          "nickname": "Leav3u",
+          "nationality": "China",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/58014/leav3u"
+        },
+        {
+          "id": "vlr-4010",
+          "slug": "milan-4010",
+          "nickname": "Milan",
+          "name": "Milan de Meij",
+          "nationality": "Países Baixos",
+          "photoUrl": "/images/players/vlr-4010.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/4010/milan"
+        },
+        {
+          "id": "vlr-66112",
+          "slug": "stardust-66112",
+          "nickname": "Stardust",
+          "nationality": "China",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/66112/stardust"
+        },
+        {
+          "id": "vlr-53080",
+          "slug": "scott-currie-53080",
+          "nickname": "Scott Currie",
+          "name": "Scott Currie",
+          "nationality": "Irlanda",
+          "photoUrl": "/images/players/vlr-53080.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/53080/scott-currie"
+        }
+      ]
+    },
+    {
+      "organizationId": "9cfd944b-c060-463e-bb58-ec29f941e1b9",
+      "name": "Xi Lai Gaming",
+      "sourceUrl": "https://www.vlr.gg/team/13581/xi-lai-gaming",
+      "members": [
+        {
+          "id": "vlr-24308",
+          "slug": "wsleo-24308",
+          "nickname": "WsLeo",
+          "name": "Huang Pinwei (黄品维)",
+          "nationality": "Taiwan",
+          "photoUrl": "/images/players/vlr-24308.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/24308/wsleo"
+        },
+        {
+          "id": "vlr-64849",
+          "slug": "sharks-64849",
+          "nickname": "Sharks",
+          "name": "Qiu Ge (邱戈)",
+          "nationality": "China",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/64849/sharks"
+        },
+        {
+          "id": "vlr-37489",
+          "slug": "lysoar-37489",
+          "nickname": "Lysoar",
+          "name": "Liang Youhao (梁优好)",
+          "nationality": "China",
+          "photoUrl": "/images/players/vlr-37489.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/37489/lysoar"
+        },
+        {
+          "id": "vlr-37927",
+          "slug": "happywei-37927",
+          "nickname": "happywei",
+          "name": "Deng Minwei (邓闵维)",
+          "nationality": "Taiwan",
+          "photoUrl": "/images/players/vlr-37927.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/37927/happywei"
+        },
+        {
+          "id": "vlr-11527",
+          "slug": "noman-11527",
+          "nickname": "NoMan",
+          "name": "James Man",
+          "nationality": "Hong Kong, RAE da China",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/11527/noman"
+        },
+        {
+          "id": "vlr-1874",
+          "slug": "steady-1874",
+          "nickname": "steady",
+          "name": "Dmitry Prutkov",
+          "nationality": "Rússia",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/1874/steady"
+        }
+      ]
+    },
+    {
+      "organizationId": "d69a5c62-0741-4f5c-a5be-2bb6d053457d",
+      "name": "Crazy Raccoon",
+      "sourceUrl": "https://www.vlr.gg/team/277/crazy-raccoon",
+      "members": []
+    },
+    {
+      "organizationId": "43ba390f-fe04-47e4-a6f8-dc8db0109e1e",
+      "name": "FULL SENSE",
+      "sourceUrl": "https://www.vlr.gg/team/4050/full-sense",
+      "members": [
+        {
+          "id": "vlr-13784",
+          "slug": "killua-13784",
+          "nickname": "Killua",
+          "name": "Tanate Teerasawad",
+          "nationality": "Tailândia",
+          "photoUrl": "/images/players/vlr-13784.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/13784/killua"
+        },
+        {
+          "id": "vlr-13788",
+          "slug": "jitboys-13788",
+          "nickname": "JitBoyS",
+          "name": "Jittana Nokngam",
+          "nationality": "Tailândia",
+          "photoUrl": "/images/players/vlr-13788.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/13788/jitboys"
+        },
+        {
+          "id": "vlr-27244",
+          "slug": "seph1roth-27244",
+          "nickname": "seph1roth",
+          "name": "Chinnakrit Phoojaroen",
+          "nationality": "Tailândia",
+          "photoUrl": "/images/players/vlr-27244.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/27244/seph1roth"
+        },
+        {
+          "id": "vlr-27254",
+          "slug": "leviathan-27254",
+          "nickname": "Leviathan",
+          "name": "Thanyathon Nakmee",
+          "nationality": "Tailândia",
+          "photoUrl": "/images/players/vlr-27254.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/27254/leviathan"
+        },
+        {
+          "id": "vlr-8707",
+          "slug": "frost-8707",
+          "nickname": "FrosT",
+          "name": "Hector Rosario",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-8707.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/8707/frost"
+        },
+        {
+          "id": "vlr-2388",
+          "slug": "theelovefamily-2388",
+          "nickname": "THEELOVEFAMILY",
+          "name": "Thanaphat Limpaphan",
+          "nationality": "Tailândia",
+          "photoUrl": "/images/players/vlr-2388.png",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/2388/theelovefamily"
+        },
+        {
+          "id": "vlr-3342",
+          "slug": "sushiboys-3342",
+          "nickname": "Sushiboys",
+          "name": "Panyawat Subsiriroj",
+          "nationality": "Tailândia",
+          "photoUrl": "/images/players/vlr-3342.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/3342/sushiboys"
+        }
+      ]
+    },
+    {
+      "organizationId": "113c81cc-2f0a-4094-8d94-97992fd02ef4",
+      "name": "GAM Esports",
+      "sourceUrl": "https://www.vlr.gg/team/23700/gam-esports",
+      "members": []
+    },
+    {
+      "organizationId": "469284d0-f5f9-48f0-8f04-7ae87168d727",
+      "name": "Gen.G",
+      "sourceUrl": "https://www.vlr.gg/team/17/gen-g",
+      "members": [
+        {
+          "id": "vlr-62291",
+          "slug": "xiesta-62291",
+          "nickname": "Xiesta",
+          "name": "Jung Si-hwan (정시환)",
+          "nationality": "Coreia do Sul",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/62291/xiesta"
+        },
+        {
+          "id": "vlr-34974",
+          "slug": "karon-34974",
+          "nickname": "Karon",
+          "name": "Kim Won-tae (김원태)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-34974.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/34974/karon"
+        },
+        {
+          "id": "vlr-9196",
+          "slug": "t3xture-9196",
+          "nickname": "t3xture",
+          "name": "Kim Na-ra (김나라)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-9196.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/9196/t3xture"
+        },
+        {
+          "id": "vlr-48925",
+          "slug": "raxcal-48925",
+          "nickname": "Raxcal",
+          "name": "Kim Min-seok (김민석)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-48925.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/48925/raxcal"
+        },
+        {
+          "id": "vlr-31827",
+          "slug": "dambi-31827",
+          "nickname": "Dambi",
+          "name": "Lee Hyuk-kyu (이혁규)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-31827.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/31827/dambi"
+        },
+        {
+          "id": "vlr-4462",
+          "slug": "mako-4462",
+          "nickname": "MaKo",
+          "name": "Kim Myeong-gwan (김명관)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-4462.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/4462/mako"
+        },
+        {
+          "id": "vlr-51099",
+          "slug": "zynx-51099",
+          "nickname": "ZynX",
+          "name": "Kim Dong-ha (김동하)",
+          "nationality": "Coreia do Sul",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/51099/zynx"
+        },
+        {
+          "id": "vlr-4562",
+          "slug": "solo-4562",
+          "nickname": "solo",
+          "name": "Kang Geun-chul (강근철)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-4562.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/4562/solo"
+        },
+        {
+          "id": "vlr-21792",
+          "slug": "hsk-21792",
+          "nickname": "HSK",
+          "name": "Kim Hae-seong (김해성)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-21792.png",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/21792/hsk"
+        }
+      ]
+    },
+    {
+      "organizationId": "2525e270-5e18-44dd-91ea-5ba12c337115",
+      "name": "Paper Rex",
+      "sourceUrl": "https://www.vlr.gg/team/624/paper-rex",
+      "members": [
+        {
+          "id": "vlr-8504",
+          "slug": "invy-8504",
+          "nickname": "invy",
+          "name": "Adrian Jiggs Reyes",
+          "nationality": "Filipinas",
+          "photoUrl": "/images/players/vlr-8504.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/8504/invy"
+        },
+        {
+          "id": "vlr-9801",
+          "slug": "f0rsaken-9801",
+          "nickname": "f0rsakeN",
+          "name": "Jason Susanto",
+          "nationality": "Indonésia",
+          "photoUrl": "/images/players/vlr-9801.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/9801/f0rsaken"
+        },
+        {
+          "id": "vlr-17086",
+          "slug": "something-17086",
+          "nickname": "something",
+          "name": "Ilya Petrov",
+          "nationality": "Rússia",
+          "photoUrl": "/images/players/vlr-17086.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/17086/something"
+        },
+        {
+          "id": "vlr-9804",
+          "slug": "alecks-9804",
+          "nickname": "alecks",
+          "name": "Alexandre Sallé",
+          "nationality": "França",
+          "photoUrl": "/images/players/vlr-9804.png",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/9804/alecks"
+        },
+        {
+          "id": "vlr-54678",
+          "slug": "panda-54678",
+          "nickname": "Panda",
+          "name": "Laijhun Cheng",
+          "nationality": "Estados Unidos",
+          "photoUrl": "/images/players/vlr-54678.png",
+          "status": "coach",
+          "sourceLabel": "performance coach",
+          "sourceUrl": "https://www.vlr.gg/player/54678/panda"
+        }
+      ]
+    },
+    {
+      "organizationId": "715c5ff6-27f1-4854-8194-4fdbb49cb02b",
+      "name": "Rex Regum Qeon",
+      "sourceUrl": "https://www.vlr.gg/team/878/rex-regum-qeon",
+      "members": [
+        {
+          "id": "vlr-1430",
+          "slug": "crazyguy-1430",
+          "nickname": "crazyguy",
+          "name": "Ngô Công Anh",
+          "nationality": "Vietnã",
+          "photoUrl": "/images/players/vlr-1430.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/1430/crazyguy"
+        },
+        {
+          "id": "vlr-8497",
+          "slug": "monyet-8497",
+          "nickname": "Monyet",
+          "name": "Cahya Nugraha",
+          "nationality": "Indonésia",
+          "photoUrl": "/images/players/vlr-8497.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/8497/monyet"
+        },
+        {
+          "id": "vlr-4871",
+          "slug": "xffero-4871",
+          "nickname": "xffero",
+          "name": "David Monangin",
+          "nationality": "Indonésia",
+          "photoUrl": "/images/players/vlr-4871.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/4871/xffero"
+        },
+        {
+          "id": "vlr-24895",
+          "slug": "jemkin-24895",
+          "nickname": "Jemkin",
+          "name": "Maksim Batorov",
+          "nationality": "Rússia",
+          "photoUrl": "/images/players/vlr-24895.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/24895/jemkin"
+        },
+        {
+          "id": "vlr-4866",
+          "slug": "kushy-4866",
+          "nickname": "Kushy",
+          "name": "Bryan Carlos Setiawan",
+          "nationality": "Indonésia",
+          "photoUrl": "/images/players/vlr-4866.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/4866/kushy"
+        }
+      ]
+    },
+    {
+      "organizationId": "641a0757-4c65-479e-ac26-1482a8cd51bb",
+      "name": "T1",
+      "sourceUrl": "https://www.vlr.gg/team/14/t1",
+      "members": [
+        {
+          "id": "vlr-485",
+          "slug": "stax-485",
+          "nickname": "stax",
+          "name": "Kim Gu-taek (김구택)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-485.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/485/stax"
+        },
+        {
+          "id": "vlr-804",
+          "slug": "buzz-804",
+          "nickname": "BuZz",
+          "name": "Yu Byeong-cheol (유병철)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-804.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/804/buzz"
+        },
+        {
+          "id": "vlr-29833",
+          "slug": "izu-29833",
+          "nickname": "iZu",
+          "name": "Ham Woo-ju (함우주)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-29833.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/29833/izu"
+        },
+        {
+          "id": "vlr-35015",
+          "slug": "sungmin-35015",
+          "nickname": "Sungmin",
+          "name": "So Seong-min (소성민)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-35015.png",
+          "status": "coach",
+          "sourceLabel": "coach",
+          "sourceUrl": "https://www.vlr.gg/player/35015/sungmin"
+        }
+      ]
+    },
+    {
+      "organizationId": "524c67bf-38d9-4cd8-875e-5f89b639a614",
+      "name": "ZETA DIVISION",
+      "sourceUrl": "https://www.vlr.gg/team/5448/zeta-division",
+      "members": [
+        {
+          "id": "vlr-6668",
+          "slug": "sugarz3ro-6668",
+          "nickname": "SugarZ3ro",
+          "name": "Shota Watanabe",
+          "nationality": "Japão",
+          "photoUrl": "/images/players/vlr-6668.png",
+          "status": "starter",
+          "sourceUrl": "https://www.vlr.gg/player/6668/sugarz3ro"
+        },
+        {
+          "id": "vlr-34776",
+          "slug": "absol-34776",
+          "nickname": "Absol",
+          "name": "Kazuki Fujinoki",
+          "nationality": "Japão",
+          "photoUrl": "/images/players/vlr-34776.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/34776/absol"
+        },
+        {
+          "id": "vlr-12990",
+          "slug": "syouta-12990",
+          "nickname": "SyouTa",
+          "name": "Shota Aoki",
+          "nationality": "Japão",
+          "photoUrl": "/images/players/vlr-12990.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/12990/syouta"
+        },
+        {
+          "id": "vlr-1960",
+          "slug": "eko-1960",
+          "nickname": "eKo",
+          "name": "Yeom Wang-ryong (염왕룡)",
+          "nationality": "Coreia do Sul",
+          "photoUrl": "/images/players/vlr-1960.png",
+          "status": "inactive",
+          "sourceLabel": "Inactive",
+          "sourceUrl": "https://www.vlr.gg/player/1960/eko"
+        },
+        {
+          "id": "vlr-1030",
+          "slug": "ryota-1030",
+          "nickname": "ryota-",
+          "name": "Ryota Okayama",
+          "nationality": "Japão",
+          "photoUrl": "/images/players/vlr-1030.png",
+          "status": "coach",
+          "sourceLabel": "head coach",
+          "sourceUrl": "https://www.vlr.gg/player/1030/ryota"
+        },
+        {
+          "id": "vlr-6717",
+          "slug": "xqq-6717",
+          "nickname": "XQQ",
+          "name": "Motoyama Hibiki",
+          "nationality": "Japão",
+          "photoUrl": "/images/players/vlr-6717.png",
+          "status": "coach",
+          "sourceLabel": "assistant coach",
+          "sourceUrl": "https://www.vlr.gg/player/6717/xqq"
+        }
+      ]
+    }
+  ]
+}

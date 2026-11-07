@@ -49,7 +49,7 @@ export function PlayerProfile({ profile }: { profile: PlayerProfileData }) {
             {player.links && player.links.length > 0 && <nav aria-label="Links do jogador" className="mt-4 flex flex-wrap gap-3">{player.links.map((link) => <a key={link.label} href={link.url} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-1 rounded-md px-2 text-sm underline">{link.label}<ArrowUpRight aria-hidden="true" className="size-4" /></a>)}</nav>}
           </div>
         </div>
-        <p className="mt-7 max-w-2xl text-sm leading-7 text-muted-foreground">Equipe e carreira com base nos vínculos publicados neste site.</p>
+        <p className="mt-7 max-w-2xl text-sm leading-7 text-muted-foreground">{player.rosterObservation ? "Elenco atual consultado no VLR.gg. As formações de 2027 podem mudar." : "Equipe e carreira com base nos vínculos publicados neste site."}</p>
       </header>
       <nav aria-label="Seções do jogador" className="mb-8 flex flex-wrap gap-x-5 border-y border-border py-2">
         <a href="#linha-do-tempo" className="inline-flex min-h-11 items-center rounded-sm px-2 text-sm font-medium text-muted-foreground hover:text-foreground">Linha do tempo</a>
@@ -58,7 +58,13 @@ export function PlayerProfile({ profile }: { profile: PlayerProfileData }) {
       </nav>
       <section id="equipe-atual" tabIndex={-1} aria-labelledby="equipe-atual-titulo" className="scroll-mt-8">
         <h2 id="equipe-atual-titulo" className="mb-6 text-2xl font-semibold tracking-tight">Equipe atual</h2>
-        {currentMemberships.length > 0 ? (
+        {player.rosterObservation && profile.observedTeam ? (
+          <div className="rounded-xl border border-border bg-card p-6">
+            <Link href={`/team/${profile.observedTeam.slug}`} className="inline-flex min-h-11 items-center text-lg font-semibold hover:text-primary">{profile.observedTeam.name}</Link>
+            <p className="mt-2 text-sm text-muted-foreground">{player.rosterObservation.status === "starter" ? "Jogador" : membershipStatusLabels[player.rosterObservation.status]}</p>
+            <p className="mt-2 text-sm text-muted-foreground">Consultado em <time dateTime={player.rosterObservation.checkedAt}>{formatCareerDate(player.rosterObservation.checkedAt.slice(0, 10))}</time> · <a href={player.rosterObservation.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center underline">Fonte: VLR.gg</a></p>
+          </div>
+        ) : currentMemberships.length > 0 ? (
           <ul className="grid gap-4 lg:grid-cols-2">{currentMemberships.map((membership) => <MembershipCard key={membership.id} membership={membership} />)}</ul>
         ) : (
           <div className="flex items-start gap-4 rounded-xl border border-border bg-card p-6 sm:p-8">

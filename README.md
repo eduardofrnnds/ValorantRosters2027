@@ -7,8 +7,11 @@ Oito equipes por região é uma regra desse seed, não um limite de cadastro.
 Qualificatórias, visitantes e outras temporadas são aceitas.
 
 O projeto tem leitura pública, cadastro administrativo, rascunhos, publicação
-atômica e transferências com histórico. Não faz scraping nem inventa jogadores,
-logos, vínculos, estatísticas ou movimentos. A fonte local de jogadores está vazia.
+atômica e transferências com histórico. A versão pública inclui um snapshot dos
+elencos atuais do VLR.gg, consultado em 07/11/2026: 186 jogadores e técnicos,
+157 fotos disponíveis e os 32 logos. Ao abrir uma região, os elencos já aparecem
+nos cartões. A fonte não fornece datas de contrato; nenhum histórico foi inferido.
+Consulte [a origem dos elencos](docs/ELENCOS_VLR.md). Não há coleta automática em produção.
 
 **Estado da entrega:** implementação e revisão local da versão 1.0 concluídas;
 o [código está público no GitHub](https://github.com/eduardofrnnds/ValorantRosters2027).

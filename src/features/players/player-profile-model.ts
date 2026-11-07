@@ -53,6 +53,7 @@ export function getPlayerProfile(
 
   return {
     player,
+    observedTeam: player.rosterObservation ? catalog.organizations.find((organization) => organization.id === player.rosterObservation!.organizationId) : undefined,
     currentMemberships: career.filter((entry) => !entry.endDate || entry.endDate >= asOfDate),
     pastMemberships: career.filter((entry) => entry.endDate && entry.endDate < asOfDate),
   };

@@ -1,9 +1,14 @@
 import Link from "next/link";
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
+import { vlrSnapshot } from "@/features/rosters/data/vlr-snapshot";
 
 export function LocalCatalogNotice({ source }: { source: "local" | "supabase" }) {
-  return source === "local" ? <p className="pt-5 text-xs leading-6 text-muted-foreground">Somente leitura · catálogo local de 2027.</p> : null;
+  return source === "local" ? <p className="pt-5 text-xs leading-6 text-muted-foreground">
+    Elencos atuais do <a href="https://www.vlr.gg" target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center underline underline-offset-4">VLR.gg</a>
+    {" · consultados em "}<time dateTime={vlrSnapshot.checkedAt}>{new Intl.DateTimeFormat("pt-BR", { timeZone: "America/Sao_Paulo" }).format(new Date(vlrSnapshot.checkedAt))}</time>.
+    {" As formações de 2027 podem mudar."}
+  </p> : null;
 }
 
 export function CatalogState({ status }: { status: "empty" | "unavailable" }) {

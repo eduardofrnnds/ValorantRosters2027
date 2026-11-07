@@ -14,10 +14,22 @@ export const getPublicCatalog = cache(async (): Promise<PublicCatalogResult> => 
   await connection();
   try {
     const client = createServerPublicClient();
-    return await loadPublicCatalog({
+    const result = await loadPublicCatalog({
       configured: client !== null, localCatalog: vct2027, year: DEFAULT_SEASON_YEAR,
       readRemote: () => readPublicCatalogRows(client!),
     });
+    if (result.status !== "ready") return result;
+    const bundledLogos = new Map(vct2027.organizations.map(({ id, logoUrl }) => [id, logoUrl]));
+    return {
+      ...result,
+      catalog: {
+        ...result.catalog,
+        organizations: result.catalog.organizations.map((organization) => ({
+          ...organization,
+          logoUrl: organization.logoUrl ?? bundledLogos.get(organization.id),
+        })),
+      },
+    };
   } catch {
     return { status: "unavailable", source: "supabase" };
   }

@@ -5,9 +5,13 @@ import { Search, SearchX, Shield, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { OrganizationCard } from "./organization-card";
+import type { RosterGroup } from "@/features/rosters/roster-model";
 import { filterOrganizations, type OrganizationListing, type OrganizationOrder } from "./directory-model";
 
-export function OrganizationDirectory({ organizations }: { organizations: readonly OrganizationListing[] }) {
+export function OrganizationDirectory({ organizations, rosters }: {
+  organizations: readonly OrganizationListing[];
+  rosters: Readonly<Record<string, readonly RosterGroup[] | null>>;
+}) {
   const [query, setQuery] = useState("");
   const [order, setOrder] = useState<OrganizationOrder>("asc");
   const searchInput = useRef<HTMLInputElement>(null);
@@ -21,7 +25,7 @@ export function OrganizationDirectory({ organizations }: { organizations: readon
 
   return (
     <section aria-labelledby="equipes-titulo" className="pb-14 sm:pb-20">
-      <h2 id="equipes-titulo" className="mb-6 text-2xl font-semibold tracking-tight">Equipes da região</h2>
+      <h2 id="equipes-titulo" className="mb-6 text-2xl font-semibold tracking-tight">Times e rosters</h2>
       <noscript>
         <style>{".organization-controls { display: none; }"}</style>
         <p className="mb-6 text-sm leading-6 text-muted-foreground">A lista completa está disponível abaixo. Ative o JavaScript para buscar e alterar a ordenação.</p>
@@ -70,9 +74,9 @@ export function OrganizationDirectory({ organizations }: { organizations: readon
 
       <div id="organization-results">
         {filtered.length > 0 ? (
-          <ul aria-label="Equipes da região" className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <ul aria-label="Equipes da região" className="grid items-start gap-4 sm:grid-cols-2 xl:grid-cols-3">
             {filtered.map((organization) => (
-              <li key={organization.id}><OrganizationCard organization={organization} /></li>
+              <li key={organization.id}><OrganizationCard organization={organization} groups={rosters[organization.id] ?? null} /></li>
             ))}
           </ul>
         ) : (

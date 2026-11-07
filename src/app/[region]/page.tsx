@@ -9,6 +9,8 @@ import { getPublicCatalog } from "@/features/organizations/public-catalog";
 import { CatalogState, LocalCatalogNotice } from "@/features/organizations/catalog-state";
 import { getRegionOrganizations } from "@/features/organizations/directory-model";
 import { OrganizationDirectory } from "@/features/organizations/organization-directory";
+import { getPublishedTeamRoster } from "@/features/rosters/public-roster-server";
+import { getPublishedRosterGroups } from "@/features/rosters/roster-model";
 import { cn } from "@/lib/utils";
 
 type RegionPageProps = { params: Promise<{ region: string }> };
@@ -21,7 +23,7 @@ export async function generateMetadata({ params }: RegionPageProps): Promise<Met
   if (!region) return { title: "Região não encontrada | VCT Roster Tracker", robots: { index: false } };
   return {
     title: `${region.name} | VCT Roster Tracker`,
-    description: `Explore as organizações de ${region.name} na temporada ${DEFAULT_SEASON_YEAR} do VCT. Busque equipes e navegue por seus perfis.`,
+    description: `Veja os times e seus rosters de ${region.name} na temporada ${DEFAULT_SEASON_YEAR} do VCT, em uma só tela.`,
   };
 }
 
@@ -32,6 +34,13 @@ export default async function RegionPage({ params }: RegionPageProps) {
   const region = result.catalog.regions.find((entry) => entry.slug === slug);
   if (!region) notFound();
   const organizations = getRegionOrganizations(result.catalog, region.id, DEFAULT_SEASON_YEAR);
+  const season = result.catalog.seasons.find((entry) => entry.year === DEFAULT_SEASON_YEAR)!;
+  const rosters = Object.fromEntries(await Promise.all(organizations.map(async (organization) => {
+    const roster = await getPublishedTeamRoster(organization.id, season.id);
+    return [organization.id, roster.status === "ready"
+      ? getPublishedRosterGroups(roster.entries, organization.id, season.id)
+      : null];
+  })));
 
   return (
     <Container>
@@ -45,7 +54,7 @@ export default async function RegionPage({ params }: RegionPageProps) {
         <div>
           <p className="mb-4 font-mono text-xs tracking-[0.16em] text-primary uppercase">VCT / Temporada {DEFAULT_SEASON_YEAR}</p>
           <h1 className="text-5xl font-bold tracking-[-0.04em] sm:text-6xl">{region.name}</h1>
-          <p className="mt-5 max-w-lg text-base leading-7 text-muted-foreground">Encontre as organizações da temporada e acompanhe seus próximos capítulos.</p>
+          <p className="mt-5 max-w-lg text-base leading-7 text-muted-foreground">Todos os times e seus rosters, em uma só tela.</p>
         </div>
         <p className="shrink-0 text-sm text-muted-foreground"><span className="font-mono text-xl font-semibold text-foreground">{organizations.length}</span> {organizations.length === 1 ? "equipe na região" : "equipes na região"}</p>
       </header>
@@ -59,7 +68,7 @@ export default async function RegionPage({ params }: RegionPageProps) {
           >{entry.name}</Link>
         ))}
       </nav>
-      <OrganizationDirectory key={region.id} organizations={organizations} />
+      <OrganizationDirectory key={region.id} organizations={organizations} rosters={rosters} />
     </Container>
   );
 }

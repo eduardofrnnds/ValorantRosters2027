@@ -1,5 +1,20 @@
 # Publicação GitHub e Vercel
 
+## Atualização de elencos — 07/11/2026
+
+O usuário autorizou importar os jogadores atuais do VLR.gg e publicar. A atualização
+mostra os rosters diretamente nas regiões, com os 32 logos, 130 jogadores,
+56 técnicos e 157 fotos disponíveis. Origem e limites do snapshot estão em
+[ELENCOS_VLR.md](ELENCOS_VLR.md); não foram inventadas datas de contrato nem
+transferências. A implantação mantém o projeto e o domínio existentes.
+
+Validação local: 133 testes, build com TypeScript e verificação HTTP dos 186
+perfis e 189 imagens (32 logos + 157 fotos). O comando
+`node scripts/verify-vlr-publication.mjs` confere a publicação no domínio real;
+`UI_BASE_URL` permite apontar a mesma verificação ao servidor local.
+
+## Publicação inicial
+
 Pedido de 06/11/2026: publicar o código em repositório **público** no GitHub e
 implantar na Vercel. O usuário solicitou ser o único autor dos commits.
 

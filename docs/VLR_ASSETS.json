@@ -1,0 +1,294 @@
+{
+  "retrievedAt": "2026-11-07T14:51:30.426Z",
+  "sourcePage": "https://www.vlr.gg/778768/all-vct-2027-partnered-teams-confirmed/",
+  "assets": [
+    {
+      "organizationId": "bc09f5d6-4183-4ca4-80aa-065d060f1e1a",
+      "name": "100 Thieves",
+      "pageURL": "https://www.vlr.gg/team/120/100-thieves",
+      "imageURL": "https://owcdn.net/img/603c00d5c5a08.png",
+      "localPath": "/images/teams/100-thieves.png",
+      "sha256": "7bf7c9c6caaae7b25ce71d3cd8943eb0eaceafc82fe58c6cf805cf9574ac480d",
+      "bytes": 4921
+    },
+    {
+      "organizationId": "7858bce3-351a-446b-a79d-375a974f8f99",
+      "name": "G2 Esports",
+      "pageURL": "https://www.vlr.gg/team/11058/g2-esports",
+      "imageURL": "https://owcdn.net/img/633822848a741.png",
+      "localPath": "/images/teams/g2-esports.png",
+      "sha256": "1ac2e2ba220fa33ebd59c51df220fae95c1078c9356df28b6dcbbebcb6c9d218",
+      "bytes": 14647
+    },
+    {
+      "organizationId": "44ebc860-dd2b-44b1-8d0c-631d8bf75c7f",
+      "name": "KRÜ Esports",
+      "pageURL": "https://www.vlr.gg/team/2355/kr-esports",
+      "imageURL": "https://owcdn.net/img/63976677069e1.png",
+      "localPath": "/images/teams/kru-esports.png",
+      "sha256": "39a209126d66f69aa23e815f392142f3607a982875dd5fd0acfb33685bf7b03a",
+      "bytes": 2307
+    },
+    {
+      "organizationId": "ff5c5425-4a70-4a4e-adde-fdbf2bc87a37",
+      "name": "Leviatán",
+      "pageURL": "https://www.vlr.gg/team/2359/leviat-n",
+      "imageURL": "https://owcdn.net/img/61b8888cc3860.png",
+      "localPath": "/images/teams/leviatan.png",
+      "sha256": "4405bd7b9b02edd8205edc0fcc46c993e07faa9b9f7950e17eda0652463f8c06",
+      "bytes": 4390
+    },
+    {
+      "organizationId": "501f7832-68d7-4163-811e-197f4fc22f0e",
+      "name": "LOUD",
+      "pageURL": "https://www.vlr.gg/team/6961/loud",
+      "imageURL": "https://owcdn.net/img/62bbec8dc1b9f.png",
+      "localPath": "/images/teams/loud.png",
+      "sha256": "773fd17ed867ed9f93db1756b07f70ede917582c9d17aa055294fd39a5d413ac",
+      "bytes": 3160
+    },
+    {
+      "organizationId": "17603c5f-b7c3-4140-8411-f28391935538",
+      "name": "MIBR",
+      "pageURL": "https://www.vlr.gg/team/7386/mibr",
+      "imageURL": "https://owcdn.net/img/632be7626d6d9.png",
+      "localPath": "/images/teams/mibr.png",
+      "sha256": "ce8273275984576a9a94a3699dc077b511c7be672f1883c04b88c4e08da4d1ce",
+      "bytes": 3496
+    },
+    {
+      "organizationId": "d281e0f5-7505-4102-a028-047e244e0ead",
+      "name": "NRG",
+      "pageURL": "https://www.vlr.gg/team/1034/nrg",
+      "imageURL": "https://owcdn.net/img/6610f026c1a9e.png",
+      "localPath": "/images/teams/nrg.png",
+      "sha256": "614b0dd6715a86403b2657ecfba6b11729090dec9802eb078164f193e3baf874",
+      "bytes": 2162
+    },
+    {
+      "organizationId": "77732b62-ae24-42df-a739-8bb1d278e7b2",
+      "name": "Sentinels",
+      "pageURL": "https://www.vlr.gg/team/2/sentinels",
+      "imageURL": "https://owcdn.net/img/62875027c8e06.png",
+      "localPath": "/images/teams/sentinels.png",
+      "sha256": "edd3c040dc47b17544aeee8cd4dbebc326df3db42ae3dece508735a027816af1",
+      "bytes": 1591
+    },
+    {
+      "organizationId": "826ec70e-f97a-447b-9ca0-be92f06bbf9e",
+      "name": "BBL Esports",
+      "pageURL": "https://www.vlr.gg/team/397/bbl-esports",
+      "imageURL": "https://owcdn.net/img/65b8ccef5e273.png",
+      "localPath": "/images/teams/bbl-esports.png",
+      "sha256": "8f5933d9e0b965fd4e55b99f9dea82edb8f6eaf46906ee304cda50fcf7275a65",
+      "bytes": 4840
+    },
+    {
+      "organizationId": "11457405-202c-4e18-b668-3d69e52c93b6",
+      "name": "Fnatic",
+      "pageURL": "https://www.vlr.gg/team/2593/fnatic",
+      "imageURL": "https://owcdn.net/img/62a40cc2b5e29.png",
+      "localPath": "/images/teams/fnatic.png",
+      "sha256": "49f0fe43450fa4061e618e8d52c08f6e636a492750e3cedefc86af00352758e7",
+      "bytes": 4470
+    },
+    {
+      "organizationId": "ba47982b-4a5c-4aad-a66d-648b17e3a35f",
+      "name": "FUT Esports",
+      "pageURL": "https://www.vlr.gg/team/1184/fut-esports",
+      "imageURL": "https://owcdn.net/img/632be9976b8fe.png",
+      "localPath": "/images/teams/fut-esports.png",
+      "sha256": "a56871ac80f948dc3d61f206a8a4ea2724da3e8a9e7155b50f9ecdbc5449ee33",
+      "bytes": 3107
+    },
+    {
+      "organizationId": "e4b6c65c-11d5-4c90-a60b-80b4c095360e",
+      "name": "Gentle Mates",
+      "pageURL": "https://www.vlr.gg/team/12694/gentle-mates",
+      "imageURL": "https://owcdn.net/img/6670153fa9120.png",
+      "localPath": "/images/teams/gentle-mates.png",
+      "sha256": "fb3104155e4c1a605d2480a07acba9dfadf3e9e899dbf629b24ddb7a86bef9c4",
+      "bytes": 10954
+    },
+    {
+      "organizationId": "5e83018f-0657-4e98-a323-19eddd488c84",
+      "name": "Karmine Corp",
+      "pageURL": "https://www.vlr.gg/team/8877/karmine-corp",
+      "imageURL": "https://owcdn.net/img/627403a0d9e48.png",
+      "localPath": "/images/teams/karmine-corp.png",
+      "sha256": "499f544ea3999ea68a27d8c0b36404477b213feec7249ec78ebe44508b39eea6",
+      "bytes": 2912
+    },
+    {
+      "organizationId": "380f264d-a23d-43de-b0b6-2ad3ec6c8ade",
+      "name": "Team Heretics",
+      "pageURL": "https://www.vlr.gg/team/1001/team-heretics",
+      "imageURL": "https://owcdn.net/img/637b755224c12.png",
+      "localPath": "/images/teams/team-heretics.png",
+      "sha256": "0b06da2412fc7d8e18af643e6fe7da3a2104a596f15946d86a6ddada9db82c64",
+      "bytes": 7064
+    },
+    {
+      "organizationId": "600b275b-af04-4189-b129-4ab6a0698058",
+      "name": "Team Liquid",
+      "pageURL": "https://www.vlr.gg/team/474/team-liquid",
+      "imageURL": "https://owcdn.net/img/640c381f0603f.png",
+      "localPath": "/images/teams/team-liquid.png",
+      "sha256": "42e4b9fcc0cb1db98bc82ae2083526ba074092a7735ed1d367e511468dd935e9",
+      "bytes": 8262
+    },
+    {
+      "organizationId": "7401e259-1703-4042-827f-44998e0864ed",
+      "name": "Team Vitality",
+      "pageURL": "https://www.vlr.gg/team/2059/team-vitality",
+      "imageURL": "https://owcdn.net/img/6466d79e1ed40.png",
+      "localPath": "/images/teams/team-vitality.png",
+      "sha256": "8a72f65faa47b9ae770ba81d30238fafdb3adafc5a572b5c2057ed6dd770f56f",
+      "bytes": 3020
+    },
+    {
+      "organizationId": "6a9b903f-6b40-4826-b049-a41ce34d4847",
+      "name": "All Gamers",
+      "pageURL": "https://www.vlr.gg/team/1119/all-gamers",
+      "imageURL": "https://owcdn.net/img/6549c2b905061.png",
+      "localPath": "/images/teams/all-gamers.png",
+      "sha256": "10548d85bbb8c2e5e2c0c4c796c7850340f1d584f9b3dd36b739d43dca9e45af",
+      "bytes": 4226
+    },
+    {
+      "organizationId": "552c7d64-53cc-45ab-bad2-b203400550d4",
+      "name": "Bilibili Gaming",
+      "pageURL": "https://www.vlr.gg/team/12010/bilibili-gaming",
+      "imageURL": "https://owcdn.net/img/63f25d72216c1.png",
+      "localPath": "/images/teams/bilibili-gaming.png",
+      "sha256": "fcfdd0a41cc8b7a587d430cf932a13b76aa9c67430cbc352b9140fcae01ac127",
+      "bytes": 2589
+    },
+    {
+      "organizationId": "4cec387f-0f3c-4486-9ddf-ccf7e1251d05",
+      "name": "EDward Gaming",
+      "pageURL": "https://www.vlr.gg/team/1120/edward-gaming",
+      "imageURL": "https://owcdn.net/img/62c82049253b2.png",
+      "localPath": "/images/teams/edward-gaming.png",
+      "sha256": "68a1f16dbb9544885ccf41aab59f4333afa7ac26115955118c2d4f8703c0aff9",
+      "bytes": 30419
+    },
+    {
+      "organizationId": "0d17b910-8c1c-4093-b022-120339af26e4",
+      "name": "JD Gaming",
+      "pageURL": "https://www.vlr.gg/team/13576/jd-gaming",
+      "imageURL": "https://owcdn.net/img/64f9825408326.png",
+      "localPath": "/images/teams/jd-gaming.png",
+      "sha256": "0b8ac83596f3201dd0cecbc3d81216e4c7aec08561549e32ce295951dd0115c3",
+      "bytes": 2197
+    },
+    {
+      "organizationId": "fdcd8718-23a6-4cb9-bf51-5f0fc3653da1",
+      "name": "Trace Esports",
+      "pageURL": "https://www.vlr.gg/team/12685/trace-esports",
+      "imageURL": "https://owcdn.net/img/6433a2cc3ae72.png",
+      "localPath": "/images/teams/trace-esports.png",
+      "sha256": "ad70b43427eee4b9f2d7e43091d2cc63172bd38e09353e6bba545dcb766f1b2b",
+      "bytes": 8085
+    },
+    {
+      "organizationId": "14c9539d-ab64-451b-9b3a-94ef763a9ffd",
+      "name": "TYLOO",
+      "pageURL": "https://www.vlr.gg/team/731/tyloo",
+      "imageURL": "https://owcdn.net/img/63eb60fb08390.png",
+      "localPath": "/images/teams/tyloo.png",
+      "sha256": "6cce4437482dc65cd5ddf81bb7ac8b51f2eb8c1159a7e7ecabd59555310dc58c",
+      "bytes": 12844
+    },
+    {
+      "organizationId": "407cd5ad-3029-4149-b130-b3158f490b09",
+      "name": "Weibo Gaming",
+      "pageURL": "https://www.vlr.gg/team/1224/weibo-gaming",
+      "imageURL": "https://owcdn.net/img/62232bd14e5d7.png",
+      "localPath": "/images/teams/weibo-gaming.png",
+      "sha256": "303f6a854243ee3aa3c1fe6adcfef8da25d0295c525460c85bbb9484adbea21b",
+      "bytes": 4741
+    },
+    {
+      "organizationId": "9cfd944b-c060-463e-bb58-ec29f941e1b9",
+      "name": "Xi Lai Gaming",
+      "pageURL": "https://www.vlr.gg/team/13581/xi-lai-gaming",
+      "imageURL": "https://owcdn.net/img/671742f863b9b.png",
+      "localPath": "/images/teams/xi-lai-gaming.png",
+      "sha256": "07161cf4edb4d91d195faa0c454d880cee8654efdb0fea16465fde759adb49d3",
+      "bytes": 4717
+    },
+    {
+      "organizationId": "d69a5c62-0741-4f5c-a5be-2bb6d053457d",
+      "name": "Crazy Raccoon",
+      "pageURL": "https://www.vlr.gg/team/277/crazy-raccoon",
+      "imageURL": "https://owcdn.net/img/654cc95339f53.png",
+      "localPath": "/images/teams/crazy-raccoon.png",
+      "sha256": "cef542f45b63e85dd21c3478599c180d268b3c01042997a2b46f4e36e0e2fec9",
+      "bytes": 12783
+    },
+    {
+      "organizationId": "43ba390f-fe04-47e4-a6f8-dc8db0109e1e",
+      "name": "FULL SENSE",
+      "pageURL": "https://www.vlr.gg/team/4050/full-sense",
+      "imageURL": "https://owcdn.net/img/6537a7954d915.png",
+      "localPath": "/images/teams/full-sense.png",
+      "sha256": "6a5726529d8f604999183976d21f4f1fb95860b67552cfa9666b18d5471722bd",
+      "bytes": 4345
+    },
+    {
+      "organizationId": "113c81cc-2f0a-4094-8d94-97992fd02ef4",
+      "name": "GAM Esports",
+      "pageURL": "https://www.vlr.gg/team/23700/gam-esports",
+      "imageURL": "https://owcdn.net/img/6adaf5876b455.png",
+      "localPath": "/images/teams/gam-esports.png",
+      "sha256": "c08ccaae92dc938c738f86140a1d44b19ead77a06b57a8e63898d13857236aae",
+      "bytes": 17417
+    },
+    {
+      "organizationId": "469284d0-f5f9-48f0-8f04-7ae87168d727",
+      "name": "Gen.G",
+      "pageURL": "https://www.vlr.gg/team/17/gen-g",
+      "imageURL": "https://owcdn.net/img/6970c986eddc6.png",
+      "localPath": "/images/teams/gen-g.png",
+      "sha256": "47fea696548740a35e30888693fd0f5041d803468110bb79fd7240badbb9af32",
+      "bytes": 4881
+    },
+    {
+      "organizationId": "2525e270-5e18-44dd-91ea-5ba12c337115",
+      "name": "Paper Rex",
+      "pageURL": "https://www.vlr.gg/team/624/paper-rex",
+      "imageURL": "https://owcdn.net/img/62bbeba74d5cb.png",
+      "localPath": "/images/teams/paper-rex.png",
+      "sha256": "de532926a13347b0d950e3caa3eb24751aa5e4856107f9af113f934d0b6b7a2b",
+      "bytes": 5017
+    },
+    {
+      "organizationId": "715c5ff6-27f1-4854-8194-4fdbb49cb02b",
+      "name": "Rex Regum Qeon",
+      "pageURL": "https://www.vlr.gg/team/878/rex-regum-qeon",
+      "imageURL": "https://owcdn.net/img/629f17f51e7a3.png",
+      "localPath": "/images/teams/rex-regum-qeon.png",
+      "sha256": "6824ab4ca772fe5767b10facb80647e982af455a347ec8db5f25eb3d25b4fd81",
+      "bytes": 12884
+    },
+    {
+      "organizationId": "641a0757-4c65-479e-ac26-1482a8cd51bb",
+      "name": "T1",
+      "pageURL": "https://www.vlr.gg/team/14/t1",
+      "imageURL": "https://owcdn.net/img/62fe0b8f6b084.png",
+      "localPath": "/images/teams/t1.png",
+      "sha256": "fb5b6699dfad215a3f84110abf0c8b371531515e5017c556262d844ea5047b3a",
+      "bytes": 3280
+    },
+    {
+      "organizationId": "524c67bf-38d9-4cd8-875e-5f89b639a614",
+      "name": "ZETA DIVISION",
+      "pageURL": "https://www.vlr.gg/team/5448/zeta-division",
+      "imageURL": "https://owcdn.net/img/62a411783d94d.png",
+      "localPath": "/images/teams/zeta-division.png",
+      "sha256": "5ab9cd327859563dc970529bcb4ccac5d8f80a401cd9870458889b0db3021490",
+      "bytes": 5100
+    }
+  ]
+}

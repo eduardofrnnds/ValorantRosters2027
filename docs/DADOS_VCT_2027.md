@@ -3,7 +3,12 @@
 O arquivo `src/features/organizations/data/vct-2027.ts` é um snapshot local
 mantido manualmente: quatro regiões, temporada 2027, 32 organizações e 32
 participações `partner`, exatamente oito por região. Ele não contém jogadores,
-elencos, transferências, estatísticas ou arquivos de logos.
+elencos, transferências ou estatísticas. Os logos estão em `public/images/teams/`,
+obtidos das páginas das organizações no VLR.gg; fontes e hashes estão em `docs/VLR_ASSETS.json`.
+
+Os jogadores e técnicos ficam em um snapshot separado, descrito em
+[ELENCOS_VLR.md](ELENCOS_VLR.md), consultado em 07/11/2026. Não há garantia de
+escalações finais de 2027 nem inferência de datas de contratos.
 
 ## Fontes e conferência
 
@@ -24,7 +29,8 @@ Slugs são identificadores de URL locais (ex.: `kru-esports`, `leviatan`, `gen-g
 não alegações de URLs ou siglas oficiais.
 
 As URLs e datas ficam também em `vct2027Sources`. Não há leitura de fontes na
-execução, scraper ou sincronização automática. A referência de formato incompleta
+execução ou sincronização automática. `node scripts/download-vlr-logos.mjs` permite
+baixar novamente os logos sob demanda. A referência de formato incompleta
 do plano não foi usada nem necessária para esta tarefa.
 
 ## Contratos

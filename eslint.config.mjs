@@ -9,6 +9,7 @@ export default defineConfig([
     ".next/**",
     "out/**",
     "coverage/**",
+    "artifacts/**",
     ".npm-cache/**",
     "next-env.d.ts",
   ]),

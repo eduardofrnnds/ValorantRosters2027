@@ -3,13 +3,15 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { createRequire } from "node:module";
 import { chromium } from "playwright";
 import { DEFAULT_SEASON_YEAR, vct2027 } from "../src/features/organizations/data/vct-2027.ts";
+import { localRosterEntries } from "../src/features/rosters/data/local-roster.ts";
+import { getPublishedRosterGroups } from "../src/features/rosters/roster-model.ts";
 
 const require = createRequire(import.meta.url);
 const baseURL = process.env.UI_BASE_URL ?? "http://127.0.0.1:3010";
 const artifacts = `${process.env.UI_ARTIFACT_ROOT ?? "artifacts/task-07"}/teams`;
 const seasonId = vct2027.seasons.find(({ year }) => year === DEFAULT_SEASON_YEAR).id;
 const sections = [
-  ["titulares", "Titulares", "Nenhum titular publicado para esta temporada."],
+  ["titulares", "Jogadores", "Nenhum jogador ativo publicado para esta temporada."],
   ["reservas", "Reservas", "Nenhum reserva publicado para esta temporada."],
   ["inativos", "Inativos", "Nenhum jogador inativo publicado para esta temporada."],
   ["tecnicos", "Técnicos", "Nenhum técnico publicado para esta temporada."],
@@ -48,11 +50,12 @@ try {
       assert.equal(await page.locator("h1").count(), 1);
       assert.equal(await page.locator("h1").textContent(), organization.name);
       assert.equal(await page.title(), `${organization.name} | VCT Roster Tracker`);
-      assert.ok(await page.getByRole("img", { name: `${organization.name} — logo indisponível`, exact: true }).isVisible());
+      assert.ok(await page.getByRole("img", { name: `Logo de ${organization.name}`, exact: true }).isVisible());
       assert.equal(await page.getByRole("link", { name: region.name, exact: true }).getAttribute("href"), `/${region.slug}`);
       assert.ok((await page.locator("main header").textContent()).includes(`Temporada ${DEFAULT_SEASON_YEAR}`));
       assert.ok(await page.locator("main header").getByText("Parceira", { exact: true }).isVisible());
-      assert.equal(await page.locator('a[href^="/player/"]').count(), 0);
+      const groups = getPublishedRosterGroups(localRosterEntries, organization.id, seasonId);
+      assert.equal(await page.locator('a[href^="/player/"]').count(), groups.reduce((sum, group) => sum + group.players.length, 0));
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
 
       await page.keyboard.press("Tab");
@@ -62,7 +65,9 @@ try {
 
       for (const [index, [id, title, message]] of sections.entries()) {
         assert.ok(await page.locator(`#${id}`).getByRole("heading", { level: 2, name: title, exact: true }).isVisible());
-        assert.ok(await page.locator(`#${id}`).getByText(message, { exact: true }).isVisible());
+        const players = groups.find((group) => group.id === id)?.players ?? [];
+        if (!players.length) assert.ok(await page.locator(`#${id}`).getByText(message, { exact: true }).isVisible());
+        for (const player of players) assert.ok(await page.locator(`#${id}`).getByRole("link", { name: `Ver perfil de ${player.nickname}`, exact: true }).isVisible());
         const link = page.getByRole("navigation", { name: "Seções da organização" }).getByRole("link", { name: title, exact: true });
         assert.ok((await link.boundingBox()).height >= 44);
         if (index === 0) {
@@ -90,7 +95,7 @@ try {
       await page.waitForURL(`**/team/${slug}`);
       await page.getByRole("heading", { level: 1, name: organization.name, exact: true }).waitFor();
       assert.deepEqual(errors, []);
-      report.push({ width, slug, identity: "passed", emptySections: 5, playerLinks: 0, anchorsKeyboard: "passed", navigation: "passed", overflow: false, axeViolations: 0, browserErrors: errors });
+      report.push({ width, slug, identity: "passed", rosters: "passed", anchorsKeyboard: "passed", navigation: "passed", overflow: false, axeViolations: 0, browserErrors: errors });
       await page.close();
     }
   }
@@ -101,17 +106,19 @@ try {
   await page.waitForURL("**#historico");
   assert.equal(await page.locator("footer a").evaluate((el) => getComputedStyle(el).transitionDuration), "0s");
 
-  // All 32 actual pages must contain the five sections and no invented player links.
+  // All 32 pages expose exactly their published roster and retain empty groups.
   for (const organization of vct2027.organizations) {
     const response = await page.request.get(`${baseURL}/team/${organization.slug}`);
     assert.equal(response.status(), 200);
     const html = await response.text();
     assert.ok(html.includes(organization.name));
+    const groups = getPublishedRosterGroups(localRosterEntries, organization.id, seasonId);
     for (const [id, , message] of sections) {
       assert.ok(html.includes(`id="${id}-titulo"`));
-      assert.ok(html.includes(message));
+      const players = groups.find((group) => group.id === id)?.players ?? [];
+      if (!players.length) assert.ok(html.includes(message));
+      for (const player of players) assert.ok(html.includes(`href="/player/${player.slug}"`));
     }
-    assert.ok(!/href="\/player\//.test(html));
   }
   const notFound = await page.goto(`${baseURL}/team/equipe-inexistente`, { waitUntil: "networkidle" });
   assert.equal(notFound.status(), 404);
@@ -133,7 +140,7 @@ try {
   await noJS.close();
 
   await writeFile(`${artifacts}/results.json`, JSON.stringify({ browser: browser.version(), profilesCheckedByHTTP: 32, viewports: report, touchReducedMotion: "passed", withoutJavaScript: "passed", notFound: "404 with recovery link and noindex" }, null, 2) + "\n");
-  console.log("Perfis aprovados: 32 organizações, cinco seções vazias, metadados, quatro larguras, teclado, axe, retorno à região, toque, HTML sem JS e 404.");
+  console.log("Perfis aprovados: 32 organizações, rosters publicados, estados vazios, metadados, quatro larguras, teclado, axe, retorno à região, toque, HTML sem JS e 404.");
 } finally {
   await browser.close();
 }

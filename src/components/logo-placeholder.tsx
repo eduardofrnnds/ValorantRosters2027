@@ -5,6 +5,11 @@ import { useState } from "react";
 import { Flag, Shield } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+// These supplied logos use dark lettering; a light tile preserves their artwork.
+const lightBackgroundLogos = new Set([
+  "mibr", "fut-esports", "gentle-mates", "karmine-corp", "team-vitality", "paper-rex", "zeta-division",
+].map((slug) => `/images/teams/${slug}.png`));
+
 type LogoPlaceholderProps = {
   name: string;
   kind?: "league" | "team";
@@ -21,6 +26,7 @@ export function LogoPlaceholder({ name, kind = "team", src, size = "md", classNa
     <span className={cn(
       "inline-flex shrink-0 items-center justify-center overflow-hidden rounded-lg border border-border bg-secondary text-muted-foreground",
       { "size-10": size === "sm", "size-14": size === "md", "size-20": size === "lg" },
+      src && src !== failedSrc && lightBackgroundLogos.has(src) && "bg-slate-100",
       className,
     )}>
       {src && src !== failedSrc ? (

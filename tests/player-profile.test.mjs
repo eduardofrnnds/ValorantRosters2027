@@ -12,11 +12,17 @@ const { PlayerProfile } = loadComponent(new URL("../src/features/players/player-
 const query = (memberships = [], players = [testPlayer], slug = testPlayer.slug, date = testDate, catalog = vct2027) =>
   getPlayerProfile(players, memberships, catalog, slug, date);
 
-test("cadastro local vazio não fabrica perfis ou vínculos", () => {
-  assert.deepEqual(localPlayers, []);
+test("cadastro VLR fornece perfis sem fabricar datas de contratos", () => {
+  assert.ok(localPlayers.length > 0);
   assert.deepEqual(localPlayerMemberships, []);
   assert.equal(query([], localPlayers), undefined);
   assert.equal(query([], [testPlayer], "inexistente"), undefined);
+  const player = localPlayers[0];
+  const profile = query([], localPlayers, player.slug);
+  assert.ok(profile.observedTeam);
+  assert.ok(player.rosterObservation.sourceUrl.startsWith("https://www.vlr.gg/team/"));
+  assert.deepEqual(profile.currentMemberships, []);
+  assert.deepEqual(profile.pastMemberships, []);
 });
 
 test("rascunhos de jogador não são encontrados nem com vínculos publicados", () => {

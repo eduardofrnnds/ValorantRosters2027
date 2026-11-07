@@ -47,7 +47,7 @@ async function verifyHTTP() {
   if (!remote) {
     const { vct2027 } = await import("../src/features/organizations/data/vct-2027.ts");
     assert.match(await htmlAt("/"), /32<\/span> equipes parceiras/);
-    for (const region of vct2027.regions) assert.match(await htmlAt(`/${region.slug}`), /Somente leitura/);
+    for (const region of vct2027.regions) assert.match(await htmlAt(`/${region.slug}`), /Elencos atuais do/);
     for (const org of vct2027.organizations) assert.ok((await htmlAt(`/team/${org.slug}`)).includes(org.name));
     assert.match(await htmlAt("/transfers"), /Nenhum registro publicado para estes filtros/);
     const missing = await htmlAt("/team/sem-cadastro", 404);

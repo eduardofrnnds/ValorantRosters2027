@@ -1,6 +1,23 @@
 # Third-party notices
 
+## Logos das organizações
+
+Os 32 logos em `public/images/teams/` foram obtidos nas páginas das respectivas
+organizações no [VLR.gg](https://www.vlr.gg/778768/all-vct-2027-partnered-teams-confirmed/),
+a partir dos arquivos servidos por `owcdn.net`. URLs de cada página e imagem,
+data de obtenção e hashes estão em [docs/VLR_ASSETS.json](docs/VLR_ASSETS.json).
+As marcas e imagens pertencem aos respectivos titulares; as licenças dos
+componentes abaixo não se aplicam a esses logos. Uso para identificação das equipes.
+
 Componentes adaptados localmente; licenças originais preservadas abaixo.
+
+## Fotos dos jogadores e técnicos
+
+As fotos em `public/images/players/` foram obtidas dos cards de elenco nas páginas
+das equipes do VLR.gg. As URLs originais, data de consulta e hashes constam em
+[docs/VLR_PLAYER_ASSETS.json](docs/VLR_PLAYER_ASSETS.json). Os direitos permanecem
+com os respectivos titulares; as licenças dos componentes não se aplicam às fotos.
+O snapshot inclui links para as páginas de origem em cada perfil.
 
 ## shadcn/ui
 

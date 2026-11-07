@@ -14,6 +14,13 @@ export interface Player {
   readonly role?: PlayerRole;
   readonly links?: readonly { readonly label: string; readonly url: string }[];
   readonly publicationStatus: "draft" | "published";
+  /** A dated source observation, not a contract start or a career event. */
+  readonly rosterObservation?: {
+    readonly organizationId: string;
+    readonly status: RosterStatus;
+    readonly checkedAt: string;
+    readonly sourceUrl: string;
+  };
 }
 
 /** Local career view contract, not a database schema. Dates are ISO YYYY-MM-DD. */

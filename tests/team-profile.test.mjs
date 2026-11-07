@@ -45,12 +45,12 @@ test("o perfil mantém vínculos por ID após mudar o slug e respeita outra temp
   assert.equal(later.participation.partnerStatus, "visitor");
 });
 
-test("o catálogo de elencos permanece vazio nas 32 organizações", () => {
-  assert.deepEqual(localRosterEntries, []);
+test("o catálogo publica o snapshot VLR sem misturar equipes", () => {
+  assert.ok(localRosterEntries.length > 0);
   for (const organization of vct2027.organizations) {
     const groups = getPublishedRosterGroups(localRosterEntries, organization.id, vct2027.seasons[0].id);
-    assert.deepEqual(groups.map(({ title }) => title), ["Titulares", "Reservas", "Inativos", "Técnicos"]);
-    assert.ok(groups.every(({ players }) => players.length === 0));
+    assert.deepEqual(groups.map(({ title }) => title), ["Jogadores", "Reservas", "Inativos", "Técnicos"]);
+    assert.equal(groups.reduce((total, group) => total + group.players.length, 0), localRosterEntries.filter((entry) => entry.organizationId === organization.id).length);
   }
 });
 

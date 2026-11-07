@@ -42,7 +42,7 @@ function fixtureHTML(profile, styles) {
 }
 
 try {
-  assert.deepEqual(localPlayers, []);
+  assert.ok(localPlayers.length > 0);
   assert.deepEqual(localPlayerMemberships, []);
   for (const width of [320, 390, 768, 1440]) {
     const page = await browser.newPage({ viewport: { width, height: 900 } });
@@ -125,7 +125,7 @@ try {
   await touch.close();
 
   await writeFile(`${artifacts}/results.json`, JSON.stringify({ browser: browser.version(), publicPlayers: 0, publicMemberships: 0, report, withoutJavaScript: "404/recovery passed", touchReducedMotion: "404/recovery passed", limitation: "Populated/empty profiles tested as isolated SSR components, not published player routes or hydrated photo failures." }, null, 2) + "\n");
-  console.log("Jogadores aprovados: cadastro vazio, 404 público e recuperação; componente real isolado em quatro larguras, campos ausentes, carreira, nomes longos, teclado e axe.");
+  console.log("Jogadores aprovados: snapshot local, 404 público e recuperação; componente real isolado em quatro larguras, campos ausentes, carreira, nomes longos, teclado e axe.");
 } finally {
   await browser.close();
 }

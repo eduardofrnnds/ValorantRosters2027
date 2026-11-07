@@ -3,6 +3,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { createRequire } from "node:module";
 import { chromium } from "playwright";
 import { vct2027, DEFAULT_SEASON_YEAR } from "../src/features/organizations/data/vct-2027.ts";
+import { localRosterEntries } from "../src/features/rosters/data/local-roster.ts";
 
 const require = createRequire(import.meta.url);
 const baseURL = process.env.UI_BASE_URL ?? "http://127.0.0.1:3010";
@@ -41,7 +42,18 @@ try {
       assert.equal(await page.getByRole("navigation", { name: "Regiões do VCT" }).locator('[aria-current="page"]').textContent(), region.name);
       assert.deepEqual(await page.locator("#organization-results h3").allTextContents(), expected.map(({ name }) => name));
       assert.equal(await page.locator("#organization-results").getByText("Parceira", { exact: true }).count(), expected.length);
-      assert.equal(await page.locator("#organization-results").getByRole("img", { name: /logo indisponível/ }).count(), expected.length);
+      assert.equal(await page.locator("#organization-results").getByRole("img", { name: /^Logo de / }).count(), expected.length);
+      assert.equal(await page.locator("#organization-results article").count(), expected.length);
+      for (const organization of expected) {
+        const card = page.locator(`article[aria-labelledby="team-${organization.id}"]`);
+        const roster = localRosterEntries.filter((entry) => entry.organizationId === organization.id);
+        if (!roster.length) assert.ok(await card.getByText("Roster ainda não publicado para esta temporada.", { exact: true }).isVisible());
+        for (const { player } of roster) assert.ok(await card.getByText(player.nickname, { exact: true }).isVisible());
+      }
+      assert.equal(await page.locator("#organization-results img").evaluateAll(async (images) => {
+        await Promise.all(images.map((image) => { image.loading = "eager"; return image.decode(); }));
+        return images.every((image) => image.naturalWidth > 0);
+      }), true);
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
 
       await page.keyboard.press("Tab");
@@ -63,18 +75,18 @@ try {
 
       const target = region.id === "americas" ? expected.find(({ slug }) => slug === "kru-esports") : expected[0];
       await search.fill(`  ${target.name.normalize("NFD").replace(/\p{M}/gu, "").toUpperCase()}  `);
-      await page.waitForFunction(() => document.querySelectorAll("#organization-results li").length === 1);
+      await page.waitForFunction(() => document.querySelectorAll("#organization-results > ul > li").length === 1);
       assert.deepEqual(await page.locator("#organization-results h3").allTextContents(), [target.name]);
       assert.match(await page.getByRole("status").textContent(), /^1 de 8 equipes encontradas$/);
       await search.fill("zzzz-sem-correspondencia");
       await page.getByRole("heading", { name: "Nenhuma equipe encontrada.", exact: true }).waitFor();
-      assert.equal(await page.locator("#organization-results li").count(), 0);
+      assert.equal(await page.locator("#organization-results > ul > li").count(), 0);
       await auditAccessibility(page);
       if (region.id === "americas" && width === 390) await page.screenshot({ path: `${artifacts}/empty-390.png`, fullPage: true });
       await page.getByRole("button", { name: "Limpar busca", exact: true }).click();
       assert.equal(await search.inputValue(), "");
       assert.equal(await page.locator(":focus").getAttribute("id"), "organization-search");
-      assert.equal(await page.locator("#organization-results li").count(), expected.length);
+      assert.equal(await page.locator("#organization-results > ul > li").count(), expected.length);
 
       for (const control of await page.locator('input, select, main a').all()) {
         assert.ok((await control.boundingBox()).height >= 44, "Touch target below 44px");
@@ -122,7 +134,7 @@ try {
 
   const noJS = await browser.newPage({ javaScriptEnabled: false });
   await noJS.goto(`${baseURL}/pacific`);
-  assert.equal(await noJS.locator("#organization-results li").count(), 8);
+  assert.equal(await noJS.locator("#organization-results > ul > li").count(), 8);
   assert.equal(await noJS.getByRole("searchbox", { name: "Buscar equipe" }).isVisible(), false);
   await noJS.locator('#organization-results a[href="/team/gen-g"]').click();
   await noJS.waitForURL("**/team/gen-g");
